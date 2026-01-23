@@ -1,0 +1,2 @@
+# HotBed.lk Api Interface
+

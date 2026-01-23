@@ -1,0 +1,35 @@
+
+services:
+  api:
+    build: .
+    command: uvicorn server:app --host 0.0.0.0 --port 8000 --reload --reload-dir /app
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    environment:
+      - WATCHFILES_FORCE_POLLING=true
+      - SUPABASE_URL=${SUPABASE_URL}
+      - SUPABASE_SERVICE_ROLE_KEY=${SUPABASE_SERVICE_ROLE_KEY}
+      - SUPABASE_ANON_KEY=${SUPABASE_ANON_KEY}
+      - TEXTLK_API_TOKEN=${TEXTLK_API_TOKEN}
+      - TEXTLK_SENDER_ID=${TEXTLK_SENDER_ID}
+      - REDIS_HOST=${REDIS_HOST:-redis_database}
+      - REDIS_PORT=${REDIS_PORT:-6379}
+      - REDIS_PASSWORD=${REDIS_PASSWORD:-1234}
+      - REDIS_DB=${REDIS_DB:-0}
+
+    env_file:
+    - .env
+
+  redis_database:
+    image: "redis:alpine"
+    command: redis-server --save 20 1 --loglevel warning --requirepass 1234
+    ports:
+      - "6379:6379"
+    volumes:
+      - cache:/data
+
+volumes:
+  cache:
+    driver: local

@@ -1,0 +1,3292 @@
+[
+    {
+        "label": "BaseSettings",
+        "importPath": "pydantic_settings",
+        "description": "pydantic_settings",
+        "isExtraImport": true,
+        "detail": "pydantic_settings",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "importPath": "decouple",
+        "description": "decouple",
+        "isExtraImport": true,
+        "detail": "decouple",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "importPath": "decouple",
+        "description": "decouple",
+        "isExtraImport": true,
+        "detail": "decouple",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "importPath": "decouple",
+        "description": "decouple",
+        "isExtraImport": true,
+        "detail": "decouple",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "importPath": "decouple",
+        "description": "decouple",
+        "isExtraImport": true,
+        "detail": "decouple",
+        "documentation": {}
+    },
+    {
+        "label": "UndefinedValueError",
+        "importPath": "decouple",
+        "description": "decouple",
+        "isExtraImport": true,
+        "detail": "decouple",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "importPath": "decouple",
+        "description": "decouple",
+        "isExtraImport": true,
+        "detail": "decouple",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "lru_cache",
+        "importPath": "functools",
+        "description": "functools",
+        "isExtraImport": true,
+        "detail": "functools",
+        "documentation": {}
+    },
+    {
+        "label": "lru_cache",
+        "importPath": "functools",
+        "description": "functools",
+        "isExtraImport": true,
+        "detail": "functools",
+        "documentation": {}
+    },
+    {
+        "label": "lru_cache",
+        "importPath": "functools",
+        "description": "functools",
+        "isExtraImport": true,
+        "detail": "functools",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "Client",
+        "importPath": "supabase",
+        "description": "supabase",
+        "isExtraImport": true,
+        "detail": "supabase",
+        "documentation": {}
+    },
+    {
+        "label": "create_client",
+        "importPath": "supabase",
+        "description": "supabase",
+        "isExtraImport": true,
+        "detail": "supabase",
+        "documentation": {}
+    },
+    {
+        "label": "Client",
+        "importPath": "supabase",
+        "description": "supabase",
+        "isExtraImport": true,
+        "detail": "supabase",
+        "documentation": {}
+    },
+    {
+        "label": "Client",
+        "importPath": "supabase",
+        "description": "supabase",
+        "isExtraImport": true,
+        "detail": "supabase",
+        "documentation": {}
+    },
+    {
+        "label": "Client",
+        "importPath": "supabase",
+        "description": "supabase",
+        "isExtraImport": true,
+        "detail": "supabase",
+        "documentation": {}
+    },
+    {
+        "label": "Client",
+        "importPath": "supabase",
+        "description": "supabase",
+        "isExtraImport": true,
+        "detail": "supabase",
+        "documentation": {}
+    },
+    {
+        "label": "Client",
+        "importPath": "supabase",
+        "description": "supabase",
+        "isExtraImport": true,
+        "detail": "supabase",
+        "documentation": {}
+    },
+    {
+        "label": "Client",
+        "importPath": "supabase",
+        "description": "supabase",
+        "isExtraImport": true,
+        "detail": "supabase",
+        "documentation": {}
+    },
+    {
+        "label": "Client",
+        "importPath": "supabase",
+        "description": "supabase",
+        "isExtraImport": true,
+        "detail": "supabase",
+        "documentation": {}
+    },
+    {
+        "label": "Client",
+        "importPath": "supabase",
+        "description": "supabase",
+        "isExtraImport": true,
+        "detail": "supabase",
+        "documentation": {}
+    },
+    {
+        "label": "Client",
+        "importPath": "supabase",
+        "description": "supabase",
+        "isExtraImport": true,
+        "detail": "supabase",
+        "documentation": {}
+    },
+    {
+        "label": "Client",
+        "importPath": "supabase",
+        "description": "supabase",
+        "isExtraImport": true,
+        "detail": "supabase",
+        "documentation": {}
+    },
+    {
+        "label": "Client",
+        "importPath": "supabase",
+        "description": "supabase",
+        "isExtraImport": true,
+        "detail": "supabase",
+        "documentation": {}
+    },
+    {
+        "label": "Client",
+        "importPath": "supabase",
+        "description": "supabase",
+        "isExtraImport": true,
+        "detail": "supabase",
+        "documentation": {}
+    },
+    {
+        "label": "Client",
+        "importPath": "supabase",
+        "description": "supabase",
+        "isExtraImport": true,
+        "detail": "supabase",
+        "documentation": {}
+    },
+    {
+        "label": "Client",
+        "importPath": "supabase",
+        "description": "supabase",
+        "isExtraImport": true,
+        "detail": "supabase",
+        "documentation": {}
+    },
+    {
+        "label": "Client",
+        "importPath": "supabase",
+        "description": "supabase",
+        "isExtraImport": true,
+        "detail": "supabase",
+        "documentation": {}
+    },
+    {
+        "label": "JWTError",
+        "importPath": "jose",
+        "description": "jose",
+        "isExtraImport": true,
+        "detail": "jose",
+        "documentation": {}
+    },
+    {
+        "label": "jwt",
+        "importPath": "jose",
+        "description": "jose",
+        "isExtraImport": true,
+        "detail": "jose",
+        "documentation": {}
+    },
+    {
+        "label": "pbkdf2_sha256",
+        "importPath": "passlib.hash",
+        "description": "passlib.hash",
+        "isExtraImport": true,
+        "detail": "passlib.hash",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPAuthorizationCredentials",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPBearer",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Annotated",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Annotated",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Annotated",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Annotated",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Annotated",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Annotated",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Annotated",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Annotated",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Annotated",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Final",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Annotated",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Annotated",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Annotated",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Final",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Annotated",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "Redis",
+        "importPath": "redis",
+        "description": "redis",
+        "isExtraImport": true,
+        "detail": "redis",
+        "documentation": {}
+    },
+    {
+        "label": "Redis",
+        "importPath": "redis",
+        "description": "redis",
+        "isExtraImport": true,
+        "detail": "redis",
+        "documentation": {}
+    },
+    {
+        "label": "get_supabase_client",
+        "importPath": "app.database.supabase",
+        "description": "app.database.supabase",
+        "isExtraImport": true,
+        "detail": "app.database.supabase",
+        "documentation": {}
+    },
+    {
+        "label": "get_supabase_client",
+        "importPath": "app.database.supabase",
+        "description": "app.database.supabase",
+        "isExtraImport": true,
+        "detail": "app.database.supabase",
+        "documentation": {}
+    },
+    {
+        "label": "get_supabase_client",
+        "importPath": "app.database.supabase",
+        "description": "app.database.supabase",
+        "isExtraImport": true,
+        "detail": "app.database.supabase",
+        "documentation": {}
+    },
+    {
+        "label": "get_supabase_client",
+        "importPath": "app.database.supabase",
+        "description": "app.database.supabase",
+        "isExtraImport": true,
+        "detail": "app.database.supabase",
+        "documentation": {}
+    },
+    {
+        "label": "get_supabase_client",
+        "importPath": "app.database.supabase",
+        "description": "app.database.supabase",
+        "isExtraImport": true,
+        "detail": "app.database.supabase",
+        "documentation": {}
+    },
+    {
+        "label": "get_supabase_client",
+        "importPath": "app.database.supabase",
+        "description": "app.database.supabase",
+        "isExtraImport": true,
+        "detail": "app.database.supabase",
+        "documentation": {}
+    },
+    {
+        "label": "get_supabase_client",
+        "importPath": "app.database.supabase",
+        "description": "app.database.supabase",
+        "isExtraImport": true,
+        "detail": "app.database.supabase",
+        "documentation": {}
+    },
+    {
+        "label": "get_supabase_client",
+        "importPath": "app.database.supabase",
+        "description": "app.database.supabase",
+        "isExtraImport": true,
+        "detail": "app.database.supabase",
+        "documentation": {}
+    },
+    {
+        "label": "get_supabase_client",
+        "importPath": "app.database.supabase",
+        "description": "app.database.supabase",
+        "isExtraImport": true,
+        "detail": "app.database.supabase",
+        "documentation": {}
+    },
+    {
+        "label": "get_supabase_client",
+        "importPath": "app.database.supabase",
+        "description": "app.database.supabase",
+        "isExtraImport": true,
+        "detail": "app.database.supabase",
+        "documentation": {}
+    },
+    {
+        "label": "get_supabase_client",
+        "importPath": "app.database.supabase",
+        "description": "app.database.supabase",
+        "isExtraImport": true,
+        "detail": "app.database.supabase",
+        "documentation": {}
+    },
+    {
+        "label": "get_supabase_client",
+        "importPath": "app.database.supabase",
+        "description": "app.database.supabase",
+        "isExtraImport": true,
+        "detail": "app.database.supabase",
+        "documentation": {}
+    },
+    {
+        "label": "get_supabase_client",
+        "importPath": "app.database.supabase",
+        "description": "app.database.supabase",
+        "isExtraImport": true,
+        "detail": "app.database.supabase",
+        "documentation": {}
+    },
+    {
+        "label": "get_supabase_client",
+        "importPath": "app.database.supabase",
+        "description": "app.database.supabase",
+        "isExtraImport": true,
+        "detail": "app.database.supabase",
+        "documentation": {}
+    },
+    {
+        "label": "RateLimiter",
+        "importPath": "app.utils.rate_limiter",
+        "description": "app.utils.rate_limiter",
+        "isExtraImport": true,
+        "detail": "app.utils.rate_limiter",
+        "documentation": {}
+    },
+    {
+        "label": "RateLimiter",
+        "importPath": "app.utils.rate_limiter",
+        "description": "app.utils.rate_limiter",
+        "isExtraImport": true,
+        "detail": "app.utils.rate_limiter",
+        "documentation": {}
+    },
+    {
+        "label": "RateLimiter",
+        "importPath": "app.utils.rate_limiter",
+        "description": "app.utils.rate_limiter",
+        "isExtraImport": true,
+        "detail": "app.utils.rate_limiter",
+        "documentation": {}
+    },
+    {
+        "label": "RateLimiter",
+        "importPath": "app.utils.rate_limiter",
+        "description": "app.utils.rate_limiter",
+        "isExtraImport": true,
+        "detail": "app.utils.rate_limiter",
+        "documentation": {}
+    },
+    {
+        "label": "RateLimiter",
+        "importPath": "app.utils.rate_limiter",
+        "description": "app.utils.rate_limiter",
+        "isExtraImport": true,
+        "detail": "app.utils.rate_limiter",
+        "documentation": {}
+    },
+    {
+        "label": "RateLimiter",
+        "importPath": "app.utils.rate_limiter",
+        "description": "app.utils.rate_limiter",
+        "isExtraImport": true,
+        "detail": "app.utils.rate_limiter",
+        "documentation": {}
+    },
+    {
+        "label": "RateLimiter",
+        "importPath": "app.utils.rate_limiter",
+        "description": "app.utils.rate_limiter",
+        "isExtraImport": true,
+        "detail": "app.utils.rate_limiter",
+        "documentation": {}
+    },
+    {
+        "label": "get_redis_client",
+        "importPath": "app.utils.rate_limiter",
+        "description": "app.utils.rate_limiter",
+        "isExtraImport": true,
+        "detail": "app.utils.rate_limiter",
+        "documentation": {}
+    },
+    {
+        "label": "get_redis_client",
+        "importPath": "app.utils.rate_limiter",
+        "description": "app.utils.rate_limiter",
+        "isExtraImport": true,
+        "detail": "app.utils.rate_limiter",
+        "documentation": {}
+    },
+    {
+        "label": "get_redis_client",
+        "importPath": "app.utils.rate_limiter",
+        "description": "app.utils.rate_limiter",
+        "isExtraImport": true,
+        "detail": "app.utils.rate_limiter",
+        "documentation": {}
+    },
+    {
+        "label": "APIError",
+        "importPath": "postgrest.exceptions",
+        "description": "postgrest.exceptions",
+        "isExtraImport": true,
+        "detail": "postgrest.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "APIError",
+        "importPath": "postgrest.exceptions",
+        "description": "postgrest.exceptions",
+        "isExtraImport": true,
+        "detail": "postgrest.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "APIError",
+        "importPath": "postgrest.exceptions",
+        "description": "postgrest.exceptions",
+        "isExtraImport": true,
+        "detail": "postgrest.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "pydantic",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "field_validator",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "field_validator",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "field_validator",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "EmailStr",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "validator",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "field_validator",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "EmailStr",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "field_validator",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "model_validator",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "EmailStr",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "field_validator",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "model_validator",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "field_validator",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "ConfigDict",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "JSONResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
+        "label": "JSONResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
+        "label": "JSONResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
+        "label": "JSONResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
+        "label": "JSONResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
+        "label": "JSONResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
+        "label": "JSONResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
+        "label": "encodePassword",
+        "importPath": "app.services.jwt",
+        "description": "app.services.jwt",
+        "isExtraImport": true,
+        "detail": "app.services.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "authVerification",
+        "importPath": "app.services.jwt",
+        "description": "app.services.jwt",
+        "isExtraImport": true,
+        "detail": "app.services.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "jwt",
+        "importPath": "app.services",
+        "description": "app.services",
+        "isExtraImport": true,
+        "detail": "app.services",
+        "documentation": {}
+    },
+    {
+        "label": "RequestValidationError",
+        "importPath": "fastapi.exceptions",
+        "description": "fastapi.exceptions",
+        "isExtraImport": true,
+        "detail": "fastapi.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "RequestValidationError",
+        "importPath": "fastapi.exceptions",
+        "description": "fastapi.exceptions",
+        "isExtraImport": true,
+        "detail": "fastapi.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "RequestValidationError",
+        "importPath": "fastapi.exceptions",
+        "description": "fastapi.exceptions",
+        "isExtraImport": true,
+        "detail": "fastapi.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "hashlib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "hashlib",
+        "description": "hashlib",
+        "detail": "hashlib",
+        "documentation": {}
+    },
+    {
+        "label": "secrets",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "secrets",
+        "description": "secrets",
+        "detail": "secrets",
+        "documentation": {}
+    },
+    {
+        "label": "parser",
+        "importPath": "dateutil",
+        "description": "dateutil",
+        "isExtraImport": true,
+        "detail": "dateutil",
+        "documentation": {}
+    },
+    {
+        "label": "httpx",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "httpx",
+        "description": "httpx",
+        "detail": "httpx",
+        "documentation": {}
+    },
+    {
+        "label": "LandingPageRedisPayload",
+        "importPath": "services.GeneralUserService.app.schemas.LandingDemoPostsResponse",
+        "description": "services.GeneralUserService.app.schemas.LandingDemoPostsResponse",
+        "isExtraImport": true,
+        "detail": "services.GeneralUserService.app.schemas.LandingDemoPostsResponse",
+        "documentation": {}
+    },
+    {
+        "label": "LandingDemoPostsResponse",
+        "importPath": "services.GeneralUserService.app.schemas.LandingDemoPostsResponse",
+        "description": "services.GeneralUserService.app.schemas.LandingDemoPostsResponse",
+        "isExtraImport": true,
+        "detail": "services.GeneralUserService.app.schemas.LandingDemoPostsResponse",
+        "documentation": {}
+    },
+    {
+        "label": "LandingPageRedisPayload",
+        "importPath": "services.GeneralUserService.app.schemas.LandingDemoPostsResponse",
+        "description": "services.GeneralUserService.app.schemas.LandingDemoPostsResponse",
+        "isExtraImport": true,
+        "detail": "services.GeneralUserService.app.schemas.LandingDemoPostsResponse",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "SinglePostResponse",
+        "importPath": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "description": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "isExtraImport": true,
+        "detail": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "documentation": {}
+    },
+    {
+        "label": "SinglePostResponse",
+        "importPath": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "description": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "isExtraImport": true,
+        "detail": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "documentation": {}
+    },
+    {
+        "label": "transform_separate_responses",
+        "importPath": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "description": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "isExtraImport": true,
+        "detail": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "documentation": {}
+    },
+    {
+        "label": "transform_landing_demo_post_details",
+        "importPath": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "description": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "isExtraImport": true,
+        "detail": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "documentation": {}
+    },
+    {
+        "label": "GeneralUserCacheStorageException",
+        "importPath": "services.GeneralUserService.app.exceptions.generalUserEXceptions",
+        "description": "services.GeneralUserService.app.exceptions.generalUserEXceptions",
+        "isExtraImport": true,
+        "detail": "services.GeneralUserService.app.exceptions.generalUserEXceptions",
+        "documentation": {}
+    },
+    {
+        "label": "GeneralUserCacheStorageException",
+        "importPath": "services.GeneralUserService.app.exceptions.generalUserEXceptions",
+        "description": "services.GeneralUserService.app.exceptions.generalUserEXceptions",
+        "isExtraImport": true,
+        "detail": "services.GeneralUserService.app.exceptions.generalUserEXceptions",
+        "documentation": {}
+    },
+    {
+        "label": "GeneralUserServiceLayerException",
+        "importPath": "services.GeneralUserService.app.exceptions.generalUserEXceptions",
+        "description": "services.GeneralUserService.app.exceptions.generalUserEXceptions",
+        "isExtraImport": true,
+        "detail": "services.GeneralUserService.app.exceptions.generalUserEXceptions",
+        "documentation": {}
+    },
+    {
+        "label": "NotAcceptablePostIDException",
+        "importPath": "services.GeneralUserService.app.exceptions.generalUserEXceptions",
+        "description": "services.GeneralUserService.app.exceptions.generalUserEXceptions",
+        "isExtraImport": true,
+        "detail": "services.GeneralUserService.app.exceptions.generalUserEXceptions",
+        "documentation": {}
+    },
+    {
+        "label": "NotExsistPropertyException",
+        "importPath": "services.GeneralUserService.app.exceptions.generalUserEXceptions",
+        "description": "services.GeneralUserService.app.exceptions.generalUserEXceptions",
+        "isExtraImport": true,
+        "detail": "services.GeneralUserService.app.exceptions.generalUserEXceptions",
+        "documentation": {}
+    },
+    {
+        "label": "GeneralUserExceptions",
+        "importPath": "services.GeneralUserService.app.exceptions.generalUserEXceptions",
+        "description": "services.GeneralUserService.app.exceptions.generalUserEXceptions",
+        "isExtraImport": true,
+        "detail": "services.GeneralUserService.app.exceptions.generalUserEXceptions",
+        "documentation": {}
+    },
+    {
+        "label": "FetchLandingDemoPostsService",
+        "importPath": "services.GeneralUserService.app.services.FetchLandingDemoPostsService",
+        "description": "services.GeneralUserService.app.services.FetchLandingDemoPostsService",
+        "isExtraImport": true,
+        "detail": "services.GeneralUserService.app.services.FetchLandingDemoPostsService",
+        "documentation": {}
+    },
+    {
+        "label": "GetLandingPagePostDetailsService",
+        "importPath": "services.GeneralUserService.app.services.LandingPagePostDetailsService",
+        "description": "services.GeneralUserService.app.services.LandingPagePostDetailsService",
+        "isExtraImport": true,
+        "detail": "services.GeneralUserService.app.services.LandingPagePostDetailsService",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "importPath": "services.AdminService.app.main",
+        "description": "services.AdminService.app.main",
+        "isExtraImport": true,
+        "detail": "services.AdminService.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "importPath": "services.AdminService.app.main",
+        "description": "services.AdminService.app.main",
+        "isExtraImport": true,
+        "detail": "services.AdminService.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "GetSinglePostService",
+        "importPath": "services.GeneralUserService.app.services.GetSinglePostService",
+        "description": "services.GeneralUserService.app.services.GetSinglePostService",
+        "isExtraImport": true,
+        "detail": "services.GeneralUserService.app.services.GetSinglePostService",
+        "documentation": {}
+    },
+    {
+        "label": "GetSinglePostService",
+        "importPath": "services.GeneralUserService.app.services.GetSinglePostService",
+        "description": "services.GeneralUserService.app.services.GetSinglePostService",
+        "isExtraImport": true,
+        "detail": "services.GeneralUserService.app.services.GetSinglePostService",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "Transactions",
+        "importPath": "services.GeneralUserService.app.db.transaction",
+        "description": "services.GeneralUserService.app.db.transaction",
+        "isExtraImport": true,
+        "detail": "services.GeneralUserService.app.db.transaction",
+        "documentation": {}
+    },
+    {
+        "label": "Transactions",
+        "importPath": "services.GeneralUserService.app.db.transaction",
+        "description": "services.GeneralUserService.app.db.transaction",
+        "isExtraImport": true,
+        "detail": "services.GeneralUserService.app.db.transaction",
+        "documentation": {}
+    },
+    {
+        "label": "GeneralUserCacheStorage",
+        "importPath": "services.CashingService.GeneralUserServiceCache",
+        "description": "services.CashingService.GeneralUserServiceCache",
+        "isExtraImport": true,
+        "detail": "services.CashingService.GeneralUserServiceCache",
+        "documentation": {}
+    },
+    {
+        "label": "GeneralUserCacheStorage",
+        "importPath": "services.CashingService.GeneralUserServiceCache",
+        "description": "services.CashingService.GeneralUserServiceCache",
+        "isExtraImport": true,
+        "detail": "services.CashingService.GeneralUserServiceCache",
+        "documentation": {}
+    },
+    {
+        "label": "utils",
+        "importPath": "services.GeneralUserService.app.utils",
+        "description": "services.GeneralUserService.app.utils",
+        "isExtraImport": true,
+        "detail": "services.GeneralUserService.app.utils",
+        "documentation": {}
+    },
+    {
+        "label": "uuid",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uuid",
+        "description": "uuid",
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "CreateSubscriptionService",
+        "importPath": "services.SubscriptionService.app.services.SubscriptionService",
+        "description": "services.SubscriptionService.app.services.SubscriptionService",
+        "isExtraImport": true,
+        "detail": "services.SubscriptionService.app.services.SubscriptionService",
+        "documentation": {}
+    },
+    {
+        "label": "CreateSubscriptionResponse",
+        "importPath": "services.SubscriptionService.app.schemas.SubscriptionScheme",
+        "description": "services.SubscriptionService.app.schemas.SubscriptionScheme",
+        "isExtraImport": true,
+        "detail": "services.SubscriptionService.app.schemas.SubscriptionScheme",
+        "documentation": {}
+    },
+    {
+        "label": "PaymentStatus",
+        "importPath": "services.SubscriptionService.app.ENUMS",
+        "description": "services.SubscriptionService.app.ENUMS",
+        "isExtraImport": true,
+        "detail": "services.SubscriptionService.app.ENUMS",
+        "documentation": {}
+    },
+    {
+        "label": "SubscriptionStatus",
+        "importPath": "services.SubscriptionService.app.ENUMS",
+        "description": "services.SubscriptionService.app.ENUMS",
+        "isExtraImport": true,
+        "detail": "services.SubscriptionService.app.ENUMS",
+        "documentation": {}
+    },
+    {
+        "label": "SupabaseApiFailException",
+        "importPath": "services.SubscriptionService.app.exceptions.SubscriptionExceptions",
+        "description": "services.SubscriptionService.app.exceptions.SubscriptionExceptions",
+        "isExtraImport": true,
+        "detail": "services.SubscriptionService.app.exceptions.SubscriptionExceptions",
+        "documentation": {}
+    },
+    {
+        "label": "CreateSubscriptionException",
+        "importPath": "services.SubscriptionService.app.exceptions.SubscriptionExceptions",
+        "description": "services.SubscriptionService.app.exceptions.SubscriptionExceptions",
+        "isExtraImport": true,
+        "detail": "services.SubscriptionService.app.exceptions.SubscriptionExceptions",
+        "documentation": {}
+    },
+    {
+        "label": "SubscriptionExceptions",
+        "importPath": "services.SubscriptionService.app.exceptions.SubscriptionExceptions",
+        "description": "services.SubscriptionService.app.exceptions.SubscriptionExceptions",
+        "isExtraImport": true,
+        "detail": "services.SubscriptionService.app.exceptions.SubscriptionExceptions",
+        "documentation": {}
+    },
+    {
+        "label": "CreateOrderId",
+        "importPath": "services.SubscriptionService.app.util",
+        "description": "services.SubscriptionService.app.util",
+        "isExtraImport": true,
+        "detail": "services.SubscriptionService.app.util",
+        "documentation": {}
+    },
+    {
+        "label": "Transactions",
+        "importPath": "services.SubscriptionService.app.db.Transactions",
+        "description": "services.SubscriptionService.app.db.Transactions",
+        "isExtraImport": true,
+        "detail": "services.SubscriptionService.app.db.Transactions",
+        "documentation": {}
+    },
+    {
+        "label": "Enum",
+        "importPath": "enum",
+        "description": "enum",
+        "isExtraImport": true,
+        "detail": "enum",
+        "documentation": {}
+    },
+    {
+        "label": "CORSMiddleware",
+        "importPath": "fastapi.middleware.cors",
+        "description": "fastapi.middleware.cors",
+        "isExtraImport": true,
+        "detail": "fastapi.middleware.cors",
+        "documentation": {}
+    },
+    {
+        "label": "get_supabase_client",
+        "importPath": "app.database",
+        "description": "app.database",
+        "isExtraImport": true,
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "importPath": "services.AuthService.app.main",
+        "description": "services.AuthService.app.main",
+        "isExtraImport": true,
+        "detail": "services.AuthService.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "importPath": "services.AutomationService.app.main",
+        "description": "services.AutomationService.app.main",
+        "isExtraImport": true,
+        "detail": "services.AutomationService.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "importPath": "services.NotificationService.app.main",
+        "description": "services.NotificationService.app.main",
+        "isExtraImport": true,
+        "detail": "services.NotificationService.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "importPath": "services.GeneralUserService.app.main",
+        "description": "services.GeneralUserService.app.main",
+        "isExtraImport": true,
+        "detail": "services.GeneralUserService.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "importPath": "services.CashingService.app.main",
+        "description": "services.CashingService.app.main",
+        "isExtraImport": true,
+        "detail": "services.CashingService.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "importPath": "services.SubscriptionService.app.main",
+        "description": "services.SubscriptionService.app.main",
+        "isExtraImport": true,
+        "detail": "services.SubscriptionService.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "Settings",
+        "kind": 6,
+        "importPath": "app.configs.Configs",
+        "description": "app.configs.Configs",
+        "peekOfCode": "class Settings(BaseSettings):\n    SUPABASE_URL:str = config(\"SUPABASE_URL\")\n    SUPABASE_SERVICE_ROLE_KEY:str = config(\"SUPABASE_SERVICE_ROLE_KEY\")\n    SUPABASE_ANON_KEY:str = config(\"SUPABASE_ANON_KEY\")\ndef get_settings():\n    settings = Settings()\n    return settings",
+        "detail": "app.configs.Configs",
+        "documentation": {}
+    },
+    {
+        "label": "get_settings",
+        "kind": 2,
+        "importPath": "app.configs.Configs",
+        "description": "app.configs.Configs",
+        "peekOfCode": "def get_settings():\n    settings = Settings()\n    return settings",
+        "detail": "app.configs.Configs",
+        "documentation": {}
+    },
+    {
+        "label": "get_supabase_client",
+        "kind": 2,
+        "importPath": "app.database.supabase",
+        "description": "app.database.supabase",
+        "peekOfCode": "def get_supabase_client() -> Client:\n    supabase_url = config(\"SUPABASE_URL\")\n    supabase_key = config(\"SUPABASE_SERVICE_ROLE_KEY\") or config(\"SUPABASE_ANON_KEY\")\n    if not supabase_url or not supabase_key:\n        raise RuntimeError(\n            \"Supabase config missing: set SUPABASE_URL and \"\n            \"SUPABASE_SERVICE_ROLE_KEY (or SUPABASE_ANON_KEY).\"\n        )\n    return create_client(supabase_url, supabase_key)",
+        "detail": "app.database.supabase",
+        "documentation": {}
+    },
+    {
+        "label": "encodeToken",
+        "kind": 2,
+        "importPath": "app.services.jwt",
+        "description": "app.services.jwt",
+        "peekOfCode": "def encodeToken(mobileNumber, role):\n    \"\"\"\n    Generate JWT token using passed parameters\n    :param email: user email address\n    :param role: user role in the system [lister, viwer, admin]\n    \"\"\"\n    try:\n        token = jwt.encode({'mobileNumber': mobileNumber,\n                        'role': role}, jwt_key, algorithm=jwt_algorithm)\n        return token",
+        "detail": "app.services.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "encodeRefreshTocken",
+        "kind": 2,
+        "importPath": "app.services.jwt",
+        "description": "app.services.jwt",
+        "peekOfCode": "def encodeRefreshTocken(userId : str):\n    \"\"\"\n    create refresh token for the user\n    :param userId: id of the user\n    \"\"\"\n    # set all needed payload for refresh token\n    ist = datetime.now().timestamp()\n    jti = f\"{userId}-{ist}\"\n    exp = ist + timedelta(days=30).total_seconds()\n    # try to create a refresh token",
+        "detail": "app.services.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "decodeToken",
+        "kind": 2,
+        "importPath": "app.services.jwt",
+        "description": "app.services.jwt",
+        "peekOfCode": "def decodeToken(token):\n    \"\"\"\n    decode JWT token and return the data\n    :param token: JWT token that pass by user\n    \"\"\"\n    try:\n        data = jwt.decode(token, jwt_key, algorithms=[jwt_algorithm])\n        return data\n    except JWTError:\n        return False",
+        "detail": "app.services.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "decodeRefreshToken",
+        "kind": 2,
+        "importPath": "app.services.jwt",
+        "description": "app.services.jwt",
+        "peekOfCode": "def decodeRefreshToken(token):\n    \"\"\"\n    decode refresh JWT token and return the data\n    :param token: refresh JWT token that pass by user\n    \"\"\"\n    try:\n        data = jwt.decode(token, jwt_refresh_key, algorithms=[jwt_algorithm])\n        return data\n    except JWTError:\n        return False",
+        "detail": "app.services.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "encodePassword",
+        "kind": 2,
+        "importPath": "app.services.jwt",
+        "description": "app.services.jwt",
+        "peekOfCode": "def encodePassword(plainPassword):\n    \"\"\"\n    encode plain password to encripted password that pass by user\n    :param plainPassword: user plain password\n    \"\"\"\n    try:\n        encriptPassword = pbkdf2_sha256.hash(plainPassword)\n        return encriptPassword\n    except Exception as e:\n        return 'error in password encryption'",
+        "detail": "app.services.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "decodePasword",
+        "kind": 2,
+        "importPath": "app.services.jwt",
+        "description": "app.services.jwt",
+        "peekOfCode": "def decodePasword(palinPassword, encriptPassword):\n    \"\"\"\n    decode encrypted password and compare with plain passwords\n    :param palinPassword: user plain password\n    :param encriptPassword: user encrypted password that get from db\n    \"\"\"\n    try:\n        decriptedPassword = pbkdf2_sha256.verify(palinPassword, encriptPassword)\n        return decriptedPassword\n    except Exception as e:",
+        "detail": "app.services.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "authVerification",
+        "kind": 2,
+        "importPath": "app.services.jwt",
+        "description": "app.services.jwt",
+        "peekOfCode": "def authVerification(details: Annotated[HTTPAuthorizationCredentials, Depends(security)]):\n    \"\"\"\n    verify the barer token and decode the token data\n    :param details: HTTP authorization credentials\n    \"\"\"\n    return decodeToken(details.credentials)",
+        "detail": "app.services.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "security",
+        "kind": 5,
+        "importPath": "app.services.jwt",
+        "description": "app.services.jwt",
+        "peekOfCode": "security = HTTPBearer()\njwt_key = os.getenv('JWT_SECRET_KEY')\njwt_algorithm = os.getenv('JWT_ALGORITHM')\njwt_refresh_key = os.getenv('JWT_REFRESH_KEY')\ndef encodeToken(mobileNumber, role):\n    \"\"\"\n    Generate JWT token using passed parameters\n    :param email: user email address\n    :param role: user role in the system [lister, viwer, admin]\n    \"\"\"",
+        "detail": "app.services.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "jwt_key",
+        "kind": 5,
+        "importPath": "app.services.jwt",
+        "description": "app.services.jwt",
+        "peekOfCode": "jwt_key = os.getenv('JWT_SECRET_KEY')\njwt_algorithm = os.getenv('JWT_ALGORITHM')\njwt_refresh_key = os.getenv('JWT_REFRESH_KEY')\ndef encodeToken(mobileNumber, role):\n    \"\"\"\n    Generate JWT token using passed parameters\n    :param email: user email address\n    :param role: user role in the system [lister, viwer, admin]\n    \"\"\"\n    try:",
+        "detail": "app.services.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "jwt_algorithm",
+        "kind": 5,
+        "importPath": "app.services.jwt",
+        "description": "app.services.jwt",
+        "peekOfCode": "jwt_algorithm = os.getenv('JWT_ALGORITHM')\njwt_refresh_key = os.getenv('JWT_REFRESH_KEY')\ndef encodeToken(mobileNumber, role):\n    \"\"\"\n    Generate JWT token using passed parameters\n    :param email: user email address\n    :param role: user role in the system [lister, viwer, admin]\n    \"\"\"\n    try:\n        token = jwt.encode({'mobileNumber': mobileNumber,",
+        "detail": "app.services.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "jwt_refresh_key",
+        "kind": 5,
+        "importPath": "app.services.jwt",
+        "description": "app.services.jwt",
+        "peekOfCode": "jwt_refresh_key = os.getenv('JWT_REFRESH_KEY')\ndef encodeToken(mobileNumber, role):\n    \"\"\"\n    Generate JWT token using passed parameters\n    :param email: user email address\n    :param role: user role in the system [lister, viwer, admin]\n    \"\"\"\n    try:\n        token = jwt.encode({'mobileNumber': mobileNumber,\n                        'role': role}, jwt_key, algorithm=jwt_algorithm)",
+        "detail": "app.services.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "RateLimiter",
+        "kind": 6,
+        "importPath": "app.utils.rate_limiter",
+        "description": "app.utils.rate_limiter",
+        "peekOfCode": "class RateLimiter:\n    def __init__(self, limit: int, window_seconds: int, key_prefix: str = \"rl\"):\n        self.limit = limit\n        self.window_seconds = window_seconds\n        self.key_prefix = key_prefix\n    def _build_key(self, request: Request) -> str:\n        client_ip = request.client.host if request.client else \"unknown\"\n        return f\"{self.key_prefix}:{client_ip}:{request.url.path}\"\n    def __call__(self, request: Request) -> None:\n        client = get_redis_client()",
+        "detail": "app.utils.rate_limiter",
+        "documentation": {}
+    },
+    {
+        "label": "get_redis_client",
+        "kind": 2,
+        "importPath": "app.utils.rate_limiter",
+        "description": "app.utils.rate_limiter",
+        "peekOfCode": "def get_redis_client() -> Redis:\n    return Redis(\n        host=config(\"REDIS_HOST\", default=\"redis_database\"),\n        port=config(\"REDIS_PORT\", default=6379, cast=int),\n        password=config(\"REDIS_PASSWORD\", default=None),\n        db=config(\"REDIS_DB\", default=0, cast=int),\n        decode_responses=True,\n    )\nclass RateLimiter:\n    def __init__(self, limit: int, window_seconds: int, key_prefix: str = \"rl\"):",
+        "detail": "app.utils.rate_limiter",
+        "documentation": {}
+    },
+    {
+        "label": "health_check",
+        "kind": 2,
+        "importPath": "services.AdminService.app.main",
+        "description": "services.AdminService.app.main",
+        "peekOfCode": "def health_check():\n    return {\"status\": \"ok\", \"service\": \"user\"}",
+        "detail": "services.AdminService.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "services.AdminService.app.main",
+        "description": "services.AdminService.app.main",
+        "peekOfCode": "app = FastAPI(title=\"Admin Service\")\n@app.get(\"/health\")\ndef health_check():\n    return {\"status\": \"ok\", \"service\": \"user\"}",
+        "detail": "services.AdminService.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "kind": 2,
+        "importPath": "services.AuthService.app.api.loginAuth",
+        "description": "services.AuthService.app.api.loginAuth",
+        "peekOfCode": "def login(data : LoginInputSchema, \n          db: Annotated[Client, Depends(get_supabase_client)],\n          _: Annotated[None, Depends(RateLimiter(limit=5, window_seconds=60, key_prefix=\"register\"))],\n          ):\n#     pass\n    return loginService(loginData=data.model_dump(),db=db)",
+        "detail": "services.AuthService.app.api.loginAuth",
+        "documentation": {}
+    },
+    {
+        "label": "register",
+        "kind": 2,
+        "importPath": "services.AuthService.app.api.registerAuth",
+        "description": "services.AuthService.app.api.registerAuth",
+        "peekOfCode": "def register(\n    data: RegisterInputSchema,\n    db: Annotated[Client, Depends(get_supabase_client)],\n    _: Annotated[None, Depends(RateLimiter(limit=5, window_seconds=60, key_prefix=\"register\"))],\n):\n    return registerService(registerData=data.model_dump(),db=db)",
+        "detail": "services.AuthService.app.api.registerAuth",
+        "documentation": {}
+    },
+    {
+        "label": "resend_otp",
+        "kind": 2,
+        "importPath": "services.AuthService.app.api.resendOtpAuth",
+        "description": "services.AuthService.app.api.resendOtpAuth",
+        "peekOfCode": "def resend_otp(\n    data: ResendOtpInputSchema,\n    db: Annotated[Client, Depends(get_supabase_client)],\n    _: Annotated[None, Depends(RateLimiter(limit=5, window_seconds=60, key_prefix=\"resend-otp\"))],\n):\n    return resend_otp_service(resend_data=data.model_dump(), db=db)",
+        "detail": "services.AuthService.app.api.resendOtpAuth",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "services.AuthService.app.api.resendOtpAuth",
+        "description": "services.AuthService.app.api.resendOtpAuth",
+        "peekOfCode": "router = APIRouter(tags=[\"Auth Routes\"])\n@router.post(\"/resend-otp\", description=\"resend otp code\")\ndef resend_otp(\n    data: ResendOtpInputSchema,\n    db: Annotated[Client, Depends(get_supabase_client)],\n    _: Annotated[None, Depends(RateLimiter(limit=5, window_seconds=60, key_prefix=\"resend-otp\"))],\n):\n    return resend_otp_service(resend_data=data.model_dump(), db=db)",
+        "detail": "services.AuthService.app.api.resendOtpAuth",
+        "documentation": {}
+    },
+    {
+        "label": "verify_account",
+        "kind": 2,
+        "importPath": "services.AuthService.app.api.verifyAuth",
+        "description": "services.AuthService.app.api.verifyAuth",
+        "peekOfCode": "def verify_account(\n    data: VerifyInputSchema,\n    db: Annotated[Client, Depends(get_supabase_client)],\n    _: Annotated[None, Depends(RateLimiter(limit=5, window_seconds=60, key_prefix=\"verify\"))],\n):\n    return verify_service(verify_data=data.model_dump(), db=db)",
+        "detail": "services.AuthService.app.api.verifyAuth",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "services.AuthService.app.api.verifyAuth",
+        "description": "services.AuthService.app.api.verifyAuth",
+        "peekOfCode": "router = APIRouter(tags=[\"Auth Routes\"])\n@router.post(\"/verify\", description=\"verify account with otp\")\ndef verify_account(\n    data: VerifyInputSchema,\n    db: Annotated[Client, Depends(get_supabase_client)],\n    _: Annotated[None, Depends(RateLimiter(limit=5, window_seconds=60, key_prefix=\"verify\"))],\n):\n    return verify_service(verify_data=data.model_dump(), db=db)",
+        "detail": "services.AuthService.app.api.verifyAuth",
+        "documentation": {}
+    },
+    {
+        "label": "Transactions",
+        "kind": 6,
+        "importPath": "services.AuthService.app.db.transactions",
+        "description": "services.AuthService.app.db.transactions",
+        "peekOfCode": "class Transactions:\n    #check user existance via email address\n    @staticmethod\n    def check_user_by_email(email, db: Client):\n        try:\n            user = db.table(\"Users\").select(\"email\").eq('email',email).execute()\n            if len(user.data) == 0:\n                return False\n            return True\n        except APIError as exc:",
+        "detail": "services.AuthService.app.db.transactions",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterException",
+        "kind": 6,
+        "importPath": "services.AuthService.app.exceptions.registerExceptions",
+        "description": "services.AuthService.app.exceptions.registerExceptions",
+        "peekOfCode": "class RegisterException(Exception):\n    def __init__(\n        self,\n        error_code: str,\n        error_message: str,\n        status_code: int = 400,\n    ):\n        self.error_code = error_code\n        self.error_message = error_message\n        self.status_code = status_code",
+        "detail": "services.AuthService.app.exceptions.registerExceptions",
+        "documentation": {}
+    },
+    {
+        "label": "SupabaseApiFailException",
+        "kind": 6,
+        "importPath": "services.AuthService.app.exceptions.registerExceptions",
+        "description": "services.AuthService.app.exceptions.registerExceptions",
+        "peekOfCode": "class SupabaseApiFailException(RegisterException):\n    def __init__(self, message: str):\n        super().__init__(\n            error_code=\"INTERNAL_SERVER_ERROR\",\n            error_message=message,\n            status_code=500,\n        )\nclass SmsGatewayException(RegisterException):\n    def __init__(self, message: str):\n        super().__init__(",
+        "detail": "services.AuthService.app.exceptions.registerExceptions",
+        "documentation": {}
+    },
+    {
+        "label": "SmsGatewayException",
+        "kind": 6,
+        "importPath": "services.AuthService.app.exceptions.registerExceptions",
+        "description": "services.AuthService.app.exceptions.registerExceptions",
+        "peekOfCode": "class SmsGatewayException(RegisterException):\n    def __init__(self, message: str):\n        super().__init__(\n            error_code=\"SMS_GATEWAY_ERROR\",\n            error_message=message,\n            status_code=502,\n        )\nclass SmsGatewayConfigException(RegisterException):\n    def __init__(self, message: str):\n        super().__init__(",
+        "detail": "services.AuthService.app.exceptions.registerExceptions",
+        "documentation": {}
+    },
+    {
+        "label": "SmsGatewayConfigException",
+        "kind": 6,
+        "importPath": "services.AuthService.app.exceptions.registerExceptions",
+        "description": "services.AuthService.app.exceptions.registerExceptions",
+        "peekOfCode": "class SmsGatewayConfigException(RegisterException):\n    def __init__(self, message: str):\n        super().__init__(\n            error_code=\"SMS_GATEWAY_CONFIG_ERROR\",\n            error_message=message,\n            status_code=500,\n        )\nclass InvalidMobileNumberException(RegisterException):\n    def __init__(self, message: str):\n        super().__init__(",
+        "detail": "services.AuthService.app.exceptions.registerExceptions",
+        "documentation": {}
+    },
+    {
+        "label": "InvalidMobileNumberException",
+        "kind": 6,
+        "importPath": "services.AuthService.app.exceptions.registerExceptions",
+        "description": "services.AuthService.app.exceptions.registerExceptions",
+        "peekOfCode": "class InvalidMobileNumberException(RegisterException):\n    def __init__(self, message: str):\n        super().__init__(\n            error_code=\"INVALID_MOBILE_NUMBER\",\n            error_message=message,\n            status_code=422,\n        )\nclass InvalidOtpException(RegisterException):\n    def __init__(self, message: str):\n        super().__init__(",
+        "detail": "services.AuthService.app.exceptions.registerExceptions",
+        "documentation": {}
+    },
+    {
+        "label": "InvalidOtpException",
+        "kind": 6,
+        "importPath": "services.AuthService.app.exceptions.registerExceptions",
+        "description": "services.AuthService.app.exceptions.registerExceptions",
+        "peekOfCode": "class InvalidOtpException(RegisterException):\n    def __init__(self, message: str):\n        super().__init__(\n            error_code=\"INVALID_OTP\",\n            error_message=message,\n            status_code=422,\n        )\nclass UserNotFoundException(RegisterException):\n    def __init__(self, message: str):\n        super().__init__(",
+        "detail": "services.AuthService.app.exceptions.registerExceptions",
+        "documentation": {}
+    },
+    {
+        "label": "UserNotFoundException",
+        "kind": 6,
+        "importPath": "services.AuthService.app.exceptions.registerExceptions",
+        "description": "services.AuthService.app.exceptions.registerExceptions",
+        "peekOfCode": "class UserNotFoundException(RegisterException):\n    def __init__(self, message: str):\n        super().__init__(\n            error_code=\"USER_NOT_FOUND\",\n            error_message=message,\n            status_code=404,\n        )\nclass UserAlreadyVerifiedException(RegisterException):\n    def __init__(self, message: str):\n        super().__init__(",
+        "detail": "services.AuthService.app.exceptions.registerExceptions",
+        "documentation": {}
+    },
+    {
+        "label": "UserAlreadyVerifiedException",
+        "kind": 6,
+        "importPath": "services.AuthService.app.exceptions.registerExceptions",
+        "description": "services.AuthService.app.exceptions.registerExceptions",
+        "peekOfCode": "class UserAlreadyVerifiedException(RegisterException):\n    def __init__(self, message: str):\n        super().__init__(\n            error_code=\"USER_ALREADY_VERIFIED\",\n            error_message=message,\n            status_code=409,\n        )\nclass OtpExpiredException(RegisterException):\n    def __init__(self, message: str):\n        super().__init__(",
+        "detail": "services.AuthService.app.exceptions.registerExceptions",
+        "documentation": {}
+    },
+    {
+        "label": "OtpExpiredException",
+        "kind": 6,
+        "importPath": "services.AuthService.app.exceptions.registerExceptions",
+        "description": "services.AuthService.app.exceptions.registerExceptions",
+        "peekOfCode": "class OtpExpiredException(RegisterException):\n    def __init__(self, message: str):\n        super().__init__(\n            error_code=\"OTP_EXPIRED\",\n            error_message=message,\n            status_code=410,\n        )\nclass ResendOtpLimitException(RegisterException):\n    def __init__(self, message: str):\n        super().__init__(",
+        "detail": "services.AuthService.app.exceptions.registerExceptions",
+        "documentation": {}
+    },
+    {
+        "label": "ResendOtpLimitException",
+        "kind": 6,
+        "importPath": "services.AuthService.app.exceptions.registerExceptions",
+        "description": "services.AuthService.app.exceptions.registerExceptions",
+        "peekOfCode": "class ResendOtpLimitException(RegisterException):\n    def __init__(self, message: str):\n        super().__init__(\n            error_code=\"OTP_RESEND_LIMIT\",\n            error_message=message,\n            status_code=429,\n        )\nclass ResendOtpCooldownException(RegisterException):\n    def __init__(self, message: str):\n        super().__init__(",
+        "detail": "services.AuthService.app.exceptions.registerExceptions",
+        "documentation": {}
+    },
+    {
+        "label": "ResendOtpCooldownException",
+        "kind": 6,
+        "importPath": "services.AuthService.app.exceptions.registerExceptions",
+        "description": "services.AuthService.app.exceptions.registerExceptions",
+        "peekOfCode": "class ResendOtpCooldownException(RegisterException):\n    def __init__(self, message: str):\n        super().__init__(\n            error_code=\"OTP_RESEND_COOLDOWN\",\n            error_message=message,\n            status_code=429,\n        )\nclass UserEmailAlreadyExistsException(RegisterException):\n    def __init__(self, message: str):\n        super().__init__(",
+        "detail": "services.AuthService.app.exceptions.registerExceptions",
+        "documentation": {}
+    },
+    {
+        "label": "UserEmailAlreadyExistsException",
+        "kind": 6,
+        "importPath": "services.AuthService.app.exceptions.registerExceptions",
+        "description": "services.AuthService.app.exceptions.registerExceptions",
+        "peekOfCode": "class UserEmailAlreadyExistsException(RegisterException):\n    def __init__(self, message: str):\n        super().__init__(\n            error_code=\"DUPLICATE_USER_CREATION\",\n            error_message=message,\n            status_code=401,\n        )\nclass UserNumberAlreadyExistsException(RegisterException):\n    def __init__(self, message: str):\n        super().__init__(",
+        "detail": "services.AuthService.app.exceptions.registerExceptions",
+        "documentation": {}
+    },
+    {
+        "label": "UserNumberAlreadyExistsException",
+        "kind": 6,
+        "importPath": "services.AuthService.app.exceptions.registerExceptions",
+        "description": "services.AuthService.app.exceptions.registerExceptions",
+        "peekOfCode": "class UserNumberAlreadyExistsException(RegisterException):\n    def __init__(self, message: str):\n        super().__init__(\n            error_code=\"DUPLICATE_USER_CREATION\",\n            error_message=message,\n            status_code=401,\n        )\nclass credencialsNotMatchedException(RegisterException):\n    def __init__(self, message: str):\n        super().__init__(",
+        "detail": "services.AuthService.app.exceptions.registerExceptions",
+        "documentation": {}
+    },
+    {
+        "label": "credencialsNotMatchedException",
+        "kind": 6,
+        "importPath": "services.AuthService.app.exceptions.registerExceptions",
+        "description": "services.AuthService.app.exceptions.registerExceptions",
+        "peekOfCode": "class credencialsNotMatchedException(RegisterException):\n    def __init__(self, message: str):\n        super().__init__(\n            error_code=\"CREDENCIALS_NOT_MATCHED\",\n            error_message=message,\n            status_code=401,\n        )\nclass databaseUpdateFaildException(RegisterException):\n    def __init__(self, message: str):\n        super().__init__(",
+        "detail": "services.AuthService.app.exceptions.registerExceptions",
+        "documentation": {}
+    },
+    {
+        "label": "databaseUpdateFaildException",
+        "kind": 6,
+        "importPath": "services.AuthService.app.exceptions.registerExceptions",
+        "description": "services.AuthService.app.exceptions.registerExceptions",
+        "peekOfCode": "class databaseUpdateFaildException(RegisterException):\n    def __init__(self, message: str):\n        super().__init__(\n            error_code=\"DATABASE_UPDATE_FAILD\",\n            error_message=message,\n            status_code=500,\n        )\nclass vefiricationCodeNotFoundException(RegisterException):\n    def __init__(self, message: str):\n        super().__init__(",
+        "detail": "services.AuthService.app.exceptions.registerExceptions",
+        "documentation": {}
+    },
+    {
+        "label": "vefiricationCodeNotFoundException",
+        "kind": 6,
+        "importPath": "services.AuthService.app.exceptions.registerExceptions",
+        "description": "services.AuthService.app.exceptions.registerExceptions",
+        "peekOfCode": "class vefiricationCodeNotFoundException(RegisterException):\n    def __init__(self, message: str):\n        super().__init__(\n            error_code=\"VEFIRICATION_CODE_NOT_FOUND\",\n            error_message=message,\n            status_code=404,\n        )\nclass userNotAllowedToModified(RegisterException):\n    def __init__(self, message: str):\n        super().__init__(",
+        "detail": "services.AuthService.app.exceptions.registerExceptions",
+        "documentation": {}
+    },
+    {
+        "label": "userNotAllowedToModified",
+        "kind": 6,
+        "importPath": "services.AuthService.app.exceptions.registerExceptions",
+        "description": "services.AuthService.app.exceptions.registerExceptions",
+        "peekOfCode": "class userNotAllowedToModified(RegisterException):\n    def __init__(self, message: str):\n        super().__init__(\n            error_code=\"USER_NOT_ALLOWED_TO_MODIFIED\",\n            error_message=message,\n            status_code=403,\n        )",
+        "detail": "services.AuthService.app.exceptions.registerExceptions",
+        "documentation": {}
+    },
+    {
+        "label": "ErrorResponse",
+        "kind": 6,
+        "importPath": "services.AuthService.app.schemas.ErrorResponse",
+        "description": "services.AuthService.app.schemas.ErrorResponse",
+        "peekOfCode": "class ErrorResponse(BaseModel):\n    error_code: str\n    error_message: str\n    status_code: int",
+        "detail": "services.AuthService.app.schemas.ErrorResponse",
+        "documentation": {}
+    },
+    {
+        "label": "changePasswordSchema",
+        "kind": 6,
+        "importPath": "services.AuthService.app.schemas.changePasswordSchema",
+        "description": "services.AuthService.app.schemas.changePasswordSchema",
+        "peekOfCode": "class changePasswordSchema(BaseModel):\n    mobile_number: str = Field(\n        ...,\n        description=\"User's mobile number\",\n        examples=[\"0771234567\"]\n    )   \n    password : str = Field(\n        ...,\n        description=\"New password for the user account\",\n        examples=[\"NewStrongPassword123!\"]",
+        "detail": "services.AuthService.app.schemas.changePasswordSchema",
+        "documentation": {}
+    },
+    {
+        "label": "CheckMobileNumberSchema",
+        "kind": 6,
+        "importPath": "services.AuthService.app.schemas.checkMobileNumberSchema",
+        "description": "services.AuthService.app.schemas.checkMobileNumberSchema",
+        "peekOfCode": "class CheckMobileNumberSchema(BaseModel):\n    mobile_number: str = Field(\n        description=\"Mobile number used for registration (10 digits starting with 0). this is only use sri lankan mobile number\",\n        examples=[\"0767722791\"],\n    )\n    @field_validator(\"mobile_number\")\n    def validate_mobile_number(cls, value):\n        if value is None:\n            return ValueError(\"Mobile number is required\")\n        if not value.isdigit():",
+        "detail": "services.AuthService.app.schemas.checkMobileNumberSchema",
+        "documentation": {}
+    },
+    {
+        "label": "LoginInputSchema",
+        "kind": 6,
+        "importPath": "services.AuthService.app.schemas.loginInputSchema",
+        "description": "services.AuthService.app.schemas.loginInputSchema",
+        "peekOfCode": "class LoginInputSchema(BaseModel):\n    mobile_number: str\n    password: str\n    @field_validator(\"mobile_number\")\n    def validate_mobile_number(cls, value):\n        if not value.isdigit():\n            raise ValueError(\"Mobile number must contain only digits\")\n        if len(value) != 10 or not value.startswith(\"0\"):\n            raise ValueError(\"Mobile number must be 10 digits starting with 0\")\n        return value",
+        "detail": "services.AuthService.app.schemas.loginInputSchema",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterInputSchema",
+        "kind": 6,
+        "importPath": "services.AuthService.app.schemas.registerInputSchema",
+        "description": "services.AuthService.app.schemas.registerInputSchema",
+        "peekOfCode": "class RegisterInputSchema(BaseModel):\n    first_name: str = Field(\n        ...,\n        min_length=1,\n        description=\"First name is required\",\n        examples=[\"Dumidu\"],\n    )\n    last_name: str = Field(\n        ...,\n        min_length=1,",
+        "detail": "services.AuthService.app.schemas.registerInputSchema",
+        "documentation": {}
+    },
+    {
+        "label": "ResendOtpInputSchema",
+        "kind": 6,
+        "importPath": "services.AuthService.app.schemas.resendOtpInputSchema",
+        "description": "services.AuthService.app.schemas.resendOtpInputSchema",
+        "peekOfCode": "class ResendOtpInputSchema(BaseModel):\n    email: EmailStr | None = Field(\n        default=None,\n        description=\"Email address used for registration\",\n        examples=[\"user@example.com\"],\n    )\n    mobile_number: str | None = Field(\n        default=None,\n        description=\"Mobile number used for registration (10 digits starting with 0)\",\n        examples=[\"0767722791\"],",
+        "detail": "services.AuthService.app.schemas.resendOtpInputSchema",
+        "documentation": {}
+    },
+    {
+        "label": "VerifyInputSchema",
+        "kind": 6,
+        "importPath": "services.AuthService.app.schemas.verifyInputSchema",
+        "description": "services.AuthService.app.schemas.verifyInputSchema",
+        "peekOfCode": "class VerifyInputSchema(BaseModel):\n    email: EmailStr | None = Field(\n        default=None,\n        description=\"Email address used for registration\",\n        examples=[\"user@example.com\"],\n    )\n    mobile_number: str | None = Field(\n        default=None,\n        description=\"Mobile number used for registration (10 digits starting with 0)\",\n        examples=[\"0767722791\"],",
+        "detail": "services.AuthService.app.schemas.verifyInputSchema",
+        "documentation": {}
+    },
+    {
+        "label": "VerifyMobileNumberSchema",
+        "kind": 6,
+        "importPath": "services.AuthService.app.schemas.verifyMobileNumberSchema",
+        "description": "services.AuthService.app.schemas.verifyMobileNumberSchema",
+        "peekOfCode": "class VerifyMobileNumberSchema(BaseModel):\n    mobile_number: str = Field(\n        ...,\n        description=\"Mobile number must be 10 digits\",\n        examples=[\"0767722791\"],\n    )\n    otp : int = Field(\n        ...,\n        description=\"OTP code sent to the mobile number\",\n        examples=[123456],",
+        "detail": "services.AuthService.app.schemas.verifyMobileNumberSchema",
+        "documentation": {}
+    },
+    {
+        "label": "changePasswordService",
+        "kind": 2,
+        "importPath": "services.AuthService.app.services.changePasswordService",
+        "description": "services.AuthService.app.services.changePasswordService",
+        "peekOfCode": "def changePasswordService(data, db):\n    # check the mobile number exists\n    checkNumber = Transactions.get_usser_detials_by_mobilenumer(data.mobile_number, db)\n    if checkNumber is False:\n        return UserNotFoundException(message=\"Mobile number not found\")\n    # check the mobile number allow to change password\n    if checkNumber['data'][0]['modify_account'] is False:\n        return userNotAllowedToModified(message=\"User is not verified to change password\")\n    # update the password in the database\n    updateUser = Transactions.update_user_details(checkNumber['data'][0]['id'], {\"password\": encodePassword(data.password)}, db)",
+        "detail": "services.AuthService.app.services.changePasswordService",
+        "documentation": {}
+    },
+    {
+        "label": "checkMobileNumber",
+        "kind": 2,
+        "importPath": "services.AuthService.app.services.checkMobileNumberService",
+        "description": "services.AuthService.app.services.checkMobileNumberService",
+        "peekOfCode": "def checkMobileNumber(data, db):\n    # check the mobile number on db\n    checkDb = Transactions.get_usser_detials_by_mobilenumer(data.mobile_number, db)\n    if checkDb['status'] == False:\n        return {\n            'status' : 'failed',\n            'message' : 'mobile number not found'\n        }\n    # send the OPT to the mobile number\n    otp_code = generate_otp_code()",
+        "detail": "services.AuthService.app.services.checkMobileNumberService",
+        "documentation": {}
+    },
+    {
+        "label": "loginService",
+        "kind": 2,
+        "importPath": "services.AuthService.app.services.loginService",
+        "description": "services.AuthService.app.services.loginService",
+        "peekOfCode": "def loginService(loginData:dict,db):\n    pass\n    # check the mobile number is exist or not\n    user_exists = Transactions.get_usser_detials_by_mobilenumer(mobile_number=loginData[\"mobile_number\"],db=db)\n    if user_exists['status'] == False:\n        raise credencialsNotMatchedException(\"credencials not matched. please check and try again.\")\n    print(user_exists)\n    # # check the password is correct or not (compaire plain password with hashed password)\n    print(loginData[\"password\"], user_exists[\"data\"][0][\"password\"])\n    data = jwt.decodePasword(palinPassword=loginData[\"password\"], encriptPassword=user_exists[\"data\"][0][\"password\"])",
+        "detail": "services.AuthService.app.services.loginService",
+        "documentation": {}
+    },
+    {
+        "label": "registerService",
+        "kind": 2,
+        "importPath": "services.AuthService.app.services.registerService",
+        "description": "services.AuthService.app.services.registerService",
+        "peekOfCode": "def registerService(registerData,db):\n    \"\"\"\n    Docstring for registerService\n    Register a user using user details and send sms otp messages to phone number\n    \"\"\"\n    #check user existance by email address\n    exist_userByEmail = Transactions.check_user_by_email(email=registerData[\"email\"],db=db)\n    if exist_userByEmail:\n        raise UserEmailAlreadyExistsException(message=\"This email is already exists in the system. try to login with that email.\")\n    #check user existance by phone number",
+        "detail": "services.AuthService.app.services.registerService",
+        "documentation": {}
+    },
+    {
+        "label": "resend_otp_service",
+        "kind": 2,
+        "importPath": "services.AuthService.app.services.resendOtpService",
+        "description": "services.AuthService.app.services.resendOtpService",
+        "peekOfCode": "def resend_otp_service(resend_data, db):\n    if resend_data.get(\"email\"):\n        user = Transactions.get_user_for_verification_by_email(\n            email=resend_data[\"email\"], db=db\n        )\n    else:\n        user = Transactions.get_user_for_verification_by_mobile(\n            number=resend_data[\"mobile_number\"], db=db\n        )\n    if not user:",
+        "detail": "services.AuthService.app.services.resendOtpService",
+        "documentation": {}
+    },
+    {
+        "label": "RESEND_LIMIT",
+        "kind": 5,
+        "importPath": "services.AuthService.app.services.resendOtpService",
+        "description": "services.AuthService.app.services.resendOtpService",
+        "peekOfCode": "RESEND_LIMIT = 3\nRESEND_WINDOW_SECONDS = 600\nRESEND_COOLDOWN_SECONDS = 60\ndef resend_otp_service(resend_data, db):\n    if resend_data.get(\"email\"):\n        user = Transactions.get_user_for_verification_by_email(\n            email=resend_data[\"email\"], db=db\n        )\n    else:\n        user = Transactions.get_user_for_verification_by_mobile(",
+        "detail": "services.AuthService.app.services.resendOtpService",
+        "documentation": {}
+    },
+    {
+        "label": "RESEND_WINDOW_SECONDS",
+        "kind": 5,
+        "importPath": "services.AuthService.app.services.resendOtpService",
+        "description": "services.AuthService.app.services.resendOtpService",
+        "peekOfCode": "RESEND_WINDOW_SECONDS = 600\nRESEND_COOLDOWN_SECONDS = 60\ndef resend_otp_service(resend_data, db):\n    if resend_data.get(\"email\"):\n        user = Transactions.get_user_for_verification_by_email(\n            email=resend_data[\"email\"], db=db\n        )\n    else:\n        user = Transactions.get_user_for_verification_by_mobile(\n            number=resend_data[\"mobile_number\"], db=db",
+        "detail": "services.AuthService.app.services.resendOtpService",
+        "documentation": {}
+    },
+    {
+        "label": "RESEND_COOLDOWN_SECONDS",
+        "kind": 5,
+        "importPath": "services.AuthService.app.services.resendOtpService",
+        "description": "services.AuthService.app.services.resendOtpService",
+        "peekOfCode": "RESEND_COOLDOWN_SECONDS = 60\ndef resend_otp_service(resend_data, db):\n    if resend_data.get(\"email\"):\n        user = Transactions.get_user_for_verification_by_email(\n            email=resend_data[\"email\"], db=db\n        )\n    else:\n        user = Transactions.get_user_for_verification_by_mobile(\n            number=resend_data[\"mobile_number\"], db=db\n        )",
+        "detail": "services.AuthService.app.services.resendOtpService",
+        "documentation": {}
+    },
+    {
+        "label": "verifyMobileNumberService",
+        "kind": 2,
+        "importPath": "services.AuthService.app.services.verifyMobileNumberService",
+        "description": "services.AuthService.app.services.verifyMobileNumberService",
+        "peekOfCode": "def verifyMobileNumberService(data, db):\n    # Check if the mobile number exists in the database.\n    numberAvailability = Transactions.get_usser_detials_by_mobilenumer(data.mobile_number, db)\n    if numberAvailability['status'] == False:\n        return UserNotFoundException(\"user not found from this email\")\n    # get last record for the opt send using user id\n    lastVeficationCode = Transactions.get_newest_otp_by_userid(numberAvailability['data'][0]['id'], db)\n    if lastVeficationCode['status'] == False:\n        return vefiricationCodeNotFoundException(\"no otp found under this user\")\n    # check otp code expire or not",
+        "detail": "services.AuthService.app.services.verifyMobileNumberService",
+        "documentation": {}
+    },
+    {
+        "label": "verify_service",
+        "kind": 2,
+        "importPath": "services.AuthService.app.services.verifyService",
+        "description": "services.AuthService.app.services.verifyService",
+        "peekOfCode": "def verify_service(verify_data, db):\n    if verify_data.get(\"email\"):\n        user = Transactions.get_user_for_verification_by_email(\n            email=verify_data[\"email\"], db=db\n        )\n    else:\n        user = Transactions.get_user_for_verification_by_mobile(\n            number=verify_data[\"mobile_number\"], db=db\n        )\n    if not user:",
+        "detail": "services.AuthService.app.services.verifyService",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "services.AuthService.app.main",
+        "description": "services.AuthService.app.main",
+        "peekOfCode": "app = FastAPI(title=\"Auth Service\")\napp.include_router(register_router)\napp.include_router(verify_router)\napp.include_router(resend_otp_router)\napp.include_router(login_routerr)\napp.include_router(checkMobile_router)\napp.include_router(verify_mobile_router)\napp.include_router(change_password_router)\n@app.exception_handler(RequestValidationError)\nasync def validation_exception_handler(",
+        "detail": "services.AuthService.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "generate_otp_code",
+        "kind": 2,
+        "importPath": "services.AuthService.app.util",
+        "description": "services.AuthService.app.util",
+        "peekOfCode": "def generate_otp_code() -> str:\n    return f\"{secrets.randbelow(1_000_000):06d}\"\ndef hash_otp_code(otp_code: str) -> str:\n    return hashlib.sha256(otp_code.encode(\"utf-8\")).hexdigest()\ndef is_otp_expired(created_at: str, ttl_minutes: int = 10) -> bool:\n    created_time = parser.isoparse(created_at)\n    if created_time.tzinfo is None:\n        created_time = created_time.replace(tzinfo=timezone.utc)\n    return datetime.now(timezone.utc) > created_time + timedelta(minutes=ttl_minutes)\ndef is_timestamp_expired(expires_at: str) -> bool:",
+        "detail": "services.AuthService.app.util",
+        "documentation": {}
+    },
+    {
+        "label": "hash_otp_code",
+        "kind": 2,
+        "importPath": "services.AuthService.app.util",
+        "description": "services.AuthService.app.util",
+        "peekOfCode": "def hash_otp_code(otp_code: str) -> str:\n    return hashlib.sha256(otp_code.encode(\"utf-8\")).hexdigest()\ndef is_otp_expired(created_at: str, ttl_minutes: int = 10) -> bool:\n    created_time = parser.isoparse(created_at)\n    if created_time.tzinfo is None:\n        created_time = created_time.replace(tzinfo=timezone.utc)\n    return datetime.now(timezone.utc) > created_time + timedelta(minutes=ttl_minutes)\ndef is_timestamp_expired(expires_at: str) -> bool:\n    expiry_time = parser.isoparse(expires_at)\n    if expiry_time.tzinfo is None:",
+        "detail": "services.AuthService.app.util",
+        "documentation": {}
+    },
+    {
+        "label": "is_otp_expired",
+        "kind": 2,
+        "importPath": "services.AuthService.app.util",
+        "description": "services.AuthService.app.util",
+        "peekOfCode": "def is_otp_expired(created_at: str, ttl_minutes: int = 10) -> bool:\n    created_time = parser.isoparse(created_at)\n    if created_time.tzinfo is None:\n        created_time = created_time.replace(tzinfo=timezone.utc)\n    return datetime.now(timezone.utc) > created_time + timedelta(minutes=ttl_minutes)\ndef is_timestamp_expired(expires_at: str) -> bool:\n    expiry_time = parser.isoparse(expires_at)\n    if expiry_time.tzinfo is None:\n        expiry_time = expiry_time.replace(tzinfo=timezone.utc)\n    return datetime.now(timezone.utc) > expiry_time",
+        "detail": "services.AuthService.app.util",
+        "documentation": {}
+    },
+    {
+        "label": "is_timestamp_expired",
+        "kind": 2,
+        "importPath": "services.AuthService.app.util",
+        "description": "services.AuthService.app.util",
+        "peekOfCode": "def is_timestamp_expired(expires_at: str) -> bool:\n    expiry_time = parser.isoparse(expires_at)\n    if expiry_time.tzinfo is None:\n        expiry_time = expiry_time.replace(tzinfo=timezone.utc)\n    return datetime.now(timezone.utc) > expiry_time\ndef hash_password(password: str) -> str:\n    salt = secrets.token_bytes(16)\n    derived = hashlib.pbkdf2_hmac(\"sha256\", password.encode(\"utf-8\"), salt, 200_000)\n    return f\"pbkdf2_sha256$200000${salt.hex()}${derived.hex()}\"\ndef build_user_payload(register_data: dict, otp_code: str) -> dict:",
+        "detail": "services.AuthService.app.util",
+        "documentation": {}
+    },
+    {
+        "label": "hash_password",
+        "kind": 2,
+        "importPath": "services.AuthService.app.util",
+        "description": "services.AuthService.app.util",
+        "peekOfCode": "def hash_password(password: str) -> str:\n    salt = secrets.token_bytes(16)\n    derived = hashlib.pbkdf2_hmac(\"sha256\", password.encode(\"utf-8\"), salt, 200_000)\n    return f\"pbkdf2_sha256$200000${salt.hex()}${derived.hex()}\"\ndef build_user_payload(register_data: dict, otp_code: str) -> dict:\n    return {\n        \"first_name\": register_data[\"first_name\"],\n        \"last_name\": register_data[\"last_name\"],\n        \"password\": hash_password(register_data[\"password\"]),\n        \"mobile_number\": register_data[\"mobile_number\"],",
+        "detail": "services.AuthService.app.util",
+        "documentation": {}
+    },
+    {
+        "label": "build_user_payload",
+        "kind": 2,
+        "importPath": "services.AuthService.app.util",
+        "description": "services.AuthService.app.util",
+        "peekOfCode": "def build_user_payload(register_data: dict, otp_code: str) -> dict:\n    return {\n        \"first_name\": register_data[\"first_name\"],\n        \"last_name\": register_data[\"last_name\"],\n        \"password\": hash_password(register_data[\"password\"]),\n        \"mobile_number\": register_data[\"mobile_number\"],\n        \"email\": register_data[\"email\"],\n        \"verified\": False,\n        \"verification_token\": hash_otp_code(otp_code),\n        \"verifired_time\": None,",
+        "detail": "services.AuthService.app.util",
+        "documentation": {}
+    },
+    {
+        "label": "send_otp_sms",
+        "kind": 2,
+        "importPath": "services.AuthService.app.util",
+        "description": "services.AuthService.app.util",
+        "peekOfCode": "def send_otp_sms(recipient: str, otp_code: str) -> None:\n    api_token, sender_id = _get_sms_config()\n    normalized_recipient = normalize_mobile_number(recipient)\n    payload = {\n        \"recipient\": normalized_recipient,\n        \"sender_id\": sender_id,\n        \"type\": \"plain\",\n        \"message\": f\"Your verification code is {otp_code}\",\n    }\n    headers = {",
+        "detail": "services.AuthService.app.util",
+        "documentation": {}
+    },
+    {
+        "label": "normalize_mobile_number",
+        "kind": 2,
+        "importPath": "services.AuthService.app.util",
+        "description": "services.AuthService.app.util",
+        "peekOfCode": "def normalize_mobile_number(number: str) -> str:\n    cleaned = \"\".join(ch for ch in number if ch.isdigit())\n    if cleaned.startswith(\"0\") and len(cleaned) == 10:\n        return f\"94{cleaned[1:]}\"\n    if cleaned.startswith(\"94\") and len(cleaned) == 11:\n        return cleaned\n    raise InvalidMobileNumberException(\n        message=\"Mobile number must be 10 digits starting with 0 or 11 digits starting with 94.\"\n    )\ndef compair_otp_codes(provided_otp: str, stored_hashed_otp: str) -> bool:",
+        "detail": "services.AuthService.app.util",
+        "documentation": {}
+    },
+    {
+        "label": "compair_otp_codes",
+        "kind": 2,
+        "importPath": "services.AuthService.app.util",
+        "description": "services.AuthService.app.util",
+        "peekOfCode": "def compair_otp_codes(provided_otp: str, stored_hashed_otp: str) -> bool:\n    return hash_otp_code(str(provided_otp)) == stored_hashed_otp",
+        "detail": "services.AuthService.app.util",
+        "documentation": {}
+    },
+    {
+        "label": "health_check",
+        "kind": 2,
+        "importPath": "services.AutomationService.app.main",
+        "description": "services.AutomationService.app.main",
+        "peekOfCode": "def health_check():\n    return {\"status\": \"ok\", \"service\": \"user\"}",
+        "detail": "services.AutomationService.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "services.AutomationService.app.main",
+        "description": "services.AutomationService.app.main",
+        "peekOfCode": "app = FastAPI(title=\"Automation Service\")\n@app.get(\"/health\")\ndef health_check():\n    return {\"status\": \"ok\", \"service\": \"user\"}",
+        "detail": "services.AutomationService.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "health_check",
+        "kind": 2,
+        "importPath": "services.CashingService.app.main",
+        "description": "services.CashingService.app.main",
+        "peekOfCode": "def health_check():\n    return {\"status\": \"ok\", \"service\": \"user\"}",
+        "detail": "services.CashingService.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "services.CashingService.app.main",
+        "description": "services.CashingService.app.main",
+        "peekOfCode": "app = FastAPI(title=\"Cashing Service\")\n@app.get(\"/health\")\ndef health_check():\n    return {\"status\": \"ok\", \"service\": \"user\"}",
+        "detail": "services.CashingService.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "GeneralUserCacheStorage",
+        "kind": 6,
+        "importPath": "services.CashingService.GeneralUserServiceCache",
+        "description": "services.CashingService.GeneralUserServiceCache",
+        "peekOfCode": "class GeneralUserCacheStorage:\n    LANDING_PAGE_DEMO_KEY:Final[str] = \"landing:properties\"\n    LANDING_PAGE_DEMO_TTL :Final[int] =  600\n    POST_STORE_TTL = 60\n    @staticmethod\n    def SetLandingPageDemos(payload:LandingPageRedisPayload)->bool:\n        \"\"\"store lading page demo post array in to the redis database-1 redis database-1 beongs only to general user service only!!!\"\"\"\n        try:\n            row_payload = payload.model_dump(exclude_none=True,mode=\"json\")\n            r:Redis = GetGeneralUserRedisClient()",
+        "detail": "services.CashingService.GeneralUserServiceCache",
+        "documentation": {}
+    },
+    {
+        "label": "GetGeneralUserRedisClient",
+        "kind": 2,
+        "importPath": "services.CashingService.GeneralUserServiceCache",
+        "description": "services.CashingService.GeneralUserServiceCache",
+        "peekOfCode": "def GetGeneralUserRedisClient()->Redis:\n    \"\"\"each service have different redis instances. so for each service have separate databases\n            for this service we used database 1\n        \"\"\"\n    return Redis(\n        host=config(\"REDIS_HOST\", default=\"redis_database\"),\n        port=config(\"REDIS_PORT\", default=6379, cast=int),\n        password=config(\"REDIS_PASSWORD\", default=None),\n        db=1, \n        decode_responses=True,",
+        "detail": "services.CashingService.GeneralUserServiceCache",
+        "documentation": {}
+    },
+    {
+        "label": "register",
+        "kind": 2,
+        "importPath": "services.GeneralUserService.app.api.FetchLandingDemoPosts",
+        "description": "services.GeneralUserService.app.api.FetchLandingDemoPosts",
+        "peekOfCode": "def register(db: Annotated[Client, Depends(get_supabase_client)]):\n    demo_properties = FetchLandingDemoPostsService(db=db)\n    return LandingDemoPostsResponse(\n        succuss=True,\n        message=\"Landng page post retrived succuss!\",\n        total_available_properties=demo_properties.total_available_properties,\n        properties=demo_properties.properties\n    )",
+        "detail": "services.GeneralUserService.app.api.FetchLandingDemoPosts",
+        "documentation": {}
+    },
+    {
+        "label": "PostDetailsController",
+        "kind": 2,
+        "importPath": "services.GeneralUserService.app.api.LandingPagePostDetails",
+        "description": "services.GeneralUserService.app.api.LandingPagePostDetails",
+        "peekOfCode": "def PostDetailsController(property_id:str,db: Annotated[Client, Depends(get_supabase_client)]):\n    return GetLandingPagePostDetailsService(db=db,post_id=property_id)",
+        "detail": "services.GeneralUserService.app.api.LandingPagePostDetails",
+        "documentation": {}
+    },
+    {
+        "label": "GetSinglePostController",
+        "kind": 2,
+        "importPath": "services.GeneralUserService.app.api.SinglePropertyDetails",
+        "description": "services.GeneralUserService.app.api.SinglePropertyDetails",
+        "peekOfCode": "def GetSinglePostController(db: Annotated[Client, Depends(get_supabase_client)],post_id:str):\n    post =  GetSinglePostService(db=db,post_id=post_id)\n    return SinglePostResponse(data=post.data)",
+        "detail": "services.GeneralUserService.app.api.SinglePropertyDetails",
+        "documentation": {}
+    },
+    {
+        "label": "Transactions",
+        "kind": 6,
+        "importPath": "services.GeneralUserService.app.db.transaction",
+        "description": "services.GeneralUserService.app.db.transaction",
+        "peekOfCode": "class Transactions:\n    \"\"\"\n    Repository layer for interacting with the database\n    \"\"\"\n    #THis namespace created for prevent confucing property type and actual tables names of the properties features\n    PROPERTY_FEATURE_NAMES : Final[dict] = {\n        \"Bodim\":\"Bording_property_features\",\n        \"Anex\":\"Anex_property_features\",\n        \"Apartment\":\"Apartment_property_features\"\n    }",
+        "detail": "services.GeneralUserService.app.db.transaction",
+        "documentation": {}
+    },
+    {
+        "label": "GeneralUserExceptions",
+        "kind": 6,
+        "importPath": "services.GeneralUserService.app.exceptions.generalUserEXceptions",
+        "description": "services.GeneralUserService.app.exceptions.generalUserEXceptions",
+        "peekOfCode": "class GeneralUserExceptions(Exception):\n    def __init__(\n        self,\n        error_code: str,\n        error_message: str,\n        status_code: int = 400,\n    ):\n        self.error_code = error_code\n        self.error_message = error_message\n        self.status_code = status_code",
+        "detail": "services.GeneralUserService.app.exceptions.generalUserEXceptions",
+        "documentation": {}
+    },
+    {
+        "label": "SupabaseApiFailException",
+        "kind": 6,
+        "importPath": "services.GeneralUserService.app.exceptions.generalUserEXceptions",
+        "description": "services.GeneralUserService.app.exceptions.generalUserEXceptions",
+        "peekOfCode": "class SupabaseApiFailException(GeneralUserExceptions):\n    def __init__(self, message: str):\n        super().__init__(\n            error_code=\"INTERNAL_SERVER_ERROR\",\n            error_message=message,\n            status_code=500,\n        )\nclass NotAcceptablePostIDException(GeneralUserExceptions):\n    def __init__(self, message: str):\n        super().__init__(",
+        "detail": "services.GeneralUserService.app.exceptions.generalUserEXceptions",
+        "documentation": {}
+    },
+    {
+        "label": "NotAcceptablePostIDException",
+        "kind": 6,
+        "importPath": "services.GeneralUserService.app.exceptions.generalUserEXceptions",
+        "description": "services.GeneralUserService.app.exceptions.generalUserEXceptions",
+        "peekOfCode": "class NotAcceptablePostIDException(GeneralUserExceptions):\n    def __init__(self, message: str):\n        super().__init__(\n            error_code=\"NOT_ACCEPTABLE_POST_ID\",\n            error_message=message,\n            status_code=status.HTTP_400_BAD_REQUEST,\n        )\nclass NotExsistPropertyException(GeneralUserExceptions):\n    def __init__(self, message: str):\n        super().__init__(",
+        "detail": "services.GeneralUserService.app.exceptions.generalUserEXceptions",
+        "documentation": {}
+    },
+    {
+        "label": "NotExsistPropertyException",
+        "kind": 6,
+        "importPath": "services.GeneralUserService.app.exceptions.generalUserEXceptions",
+        "description": "services.GeneralUserService.app.exceptions.generalUserEXceptions",
+        "peekOfCode": "class NotExsistPropertyException(GeneralUserExceptions):\n    def __init__(self, message: str):\n        super().__init__(\n            error_code=\"PROPERTY_NOT_EXIST\",\n            error_message=message,\n            status_code=status.HTTP_400_BAD_REQUEST,\n        )\nclass GeneralUserServiceLayerException(GeneralUserExceptions):\n    def __init__(self, message: str):\n        super().__init__(",
+        "detail": "services.GeneralUserService.app.exceptions.generalUserEXceptions",
+        "documentation": {}
+    },
+    {
+        "label": "GeneralUserServiceLayerException",
+        "kind": 6,
+        "importPath": "services.GeneralUserService.app.exceptions.generalUserEXceptions",
+        "description": "services.GeneralUserService.app.exceptions.generalUserEXceptions",
+        "peekOfCode": "class GeneralUserServiceLayerException(GeneralUserExceptions):\n    def __init__(self, message: str):\n        super().__init__(\n            error_code=\"INTERNAL_SERVER_ERROR\",\n            error_message=message,\n            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,\n        )\nclass GeneralUserCacheStorageException(GeneralUserExceptions):\n    def __init__(self, message: str):\n        super().__init__(",
+        "detail": "services.GeneralUserService.app.exceptions.generalUserEXceptions",
+        "documentation": {}
+    },
+    {
+        "label": "GeneralUserCacheStorageException",
+        "kind": 6,
+        "importPath": "services.GeneralUserService.app.exceptions.generalUserEXceptions",
+        "description": "services.GeneralUserService.app.exceptions.generalUserEXceptions",
+        "peekOfCode": "class GeneralUserCacheStorageException(GeneralUserExceptions):\n    def __init__(self, message: str):\n        super().__init__(\n            error_code=\"INTERNAL_SERVER_ERROR\",\n            error_message=message,\n            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,\n        )",
+        "detail": "services.GeneralUserService.app.exceptions.generalUserEXceptions",
+        "documentation": {}
+    },
+    {
+        "label": "ImageRow",
+        "kind": 6,
+        "importPath": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "description": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "peekOfCode": "class ImageRow(BaseModel):\n    model_config = ConfigDict(extra=\"ignore\")\n    id: str\n    image: str\nclass UserRow(BaseModel):\n    model_config = ConfigDict(extra=\"ignore\")\n    first_name: str\n    last_name: str\nclass PropertyRow(BaseModel):\n    model_config = ConfigDict(extra=\"ignore\")",
+        "detail": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "documentation": {}
+    },
+    {
+        "label": "UserRow",
+        "kind": 6,
+        "importPath": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "description": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "peekOfCode": "class UserRow(BaseModel):\n    model_config = ConfigDict(extra=\"ignore\")\n    first_name: str\n    last_name: str\nclass PropertyRow(BaseModel):\n    model_config = ConfigDict(extra=\"ignore\")\n    id: str\n    location_name: str\n    price: int\n    user_id: Optional[str] = None",
+        "detail": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "documentation": {}
+    },
+    {
+        "label": "PropertyRow",
+        "kind": 6,
+        "importPath": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "description": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "peekOfCode": "class PropertyRow(BaseModel):\n    model_config = ConfigDict(extra=\"ignore\")\n    id: str\n    location_name: str\n    price: int\n    user_id: Optional[str] = None\n    actual_log: Optional[str] = None\n    actual_lat: Optional[str] = None\n    selected_lat: Optional[str] = None\n    selected_log: Optional[str] = None",
+        "detail": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "documentation": {}
+    },
+    {
+        "label": "BodimFeatureRow",
+        "kind": 6,
+        "importPath": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "description": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "peekOfCode": "class BodimFeatureRow(BaseModel):\n    model_config = ConfigDict(extra=\"ignore\")\n    attach_bathroom_count: int\n    seperate_bathroom_count: int\n    parking: bool\n    bed_count: int\n    table: int\n    mirror_table: int\n    storagebox: int\n    fan: int",
+        "detail": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "documentation": {}
+    },
+    {
+        "label": "FeaturesEnvelope",
+        "kind": 6,
+        "importPath": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "description": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "peekOfCode": "class FeaturesEnvelope(BaseModel):\n    model_config = ConfigDict(extra=\"ignore\")\n    data: List[BodimFeatureRow] = Field(default_factory=list)\n    count: Optional[int] = None\nclass PropertyDTO(BaseModel):\n    model_config = ConfigDict(extra=\"ignore\")\n    id: str\n    location_name: str\n    price: int\n    description: str",
+        "detail": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "documentation": {}
+    },
+    {
+        "label": "PropertyDTO",
+        "kind": 6,
+        "importPath": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "description": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "peekOfCode": "class PropertyDTO(BaseModel):\n    model_config = ConfigDict(extra=\"ignore\")\n    id: str\n    location_name: str\n    price: int\n    description: str\n    created_at: datetime\n    property_type: str\n    availability: bool\n    available_date: datetime",
+        "detail": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "documentation": {}
+    },
+    {
+        "label": "GymItem",
+        "kind": 6,
+        "importPath": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "description": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "peekOfCode": "class GymItem(BaseModel):\n    model_config = ConfigDict(extra=\"ignore\")\n    name: str = \"\"\n    distance: float = 0.0\n    location: str = \"\"\nclass HospitalItem(BaseModel):\n    model_config = ConfigDict(extra=\"ignore\")\n    name: str = \"\"\n    distance: float = 0.0\n    location: str = \"\"",
+        "detail": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "documentation": {}
+    },
+    {
+        "label": "HospitalItem",
+        "kind": 6,
+        "importPath": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "description": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "peekOfCode": "class HospitalItem(BaseModel):\n    model_config = ConfigDict(extra=\"ignore\")\n    name: str = \"\"\n    distance: float = 0.0\n    location: str = \"\"\nclass SchoolItem(BaseModel):\n    model_config = ConfigDict(extra=\"ignore\")\n    name: str = \"\"\n    distance: float = 0.0\n    location: str = \"\"",
+        "detail": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "documentation": {}
+    },
+    {
+        "label": "SchoolItem",
+        "kind": 6,
+        "importPath": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "description": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "peekOfCode": "class SchoolItem(BaseModel):\n    model_config = ConfigDict(extra=\"ignore\")\n    name: str = \"\"\n    distance: float = 0.0\n    location: str = \"\"\nclass SupermarketItem(BaseModel):\n    model_config = ConfigDict(extra=\"ignore\")\n    name: str = \"\"\n    distance: float = 0.0\n    location: str = \"\"",
+        "detail": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "documentation": {}
+    },
+    {
+        "label": "SupermarketItem",
+        "kind": 6,
+        "importPath": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "description": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "peekOfCode": "class SupermarketItem(BaseModel):\n    model_config = ConfigDict(extra=\"ignore\")\n    name: str = \"\"\n    distance: float = 0.0\n    location: str = \"\"\nclass BillsItem(BaseModel):\n    model_config = ConfigDict(extra=\"ignore\")\n    water_bill: bool = False\n    electricity_bill: bool = False\n    parking_bill: bool = False",
+        "detail": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "documentation": {}
+    },
+    {
+        "label": "BillsItem",
+        "kind": 6,
+        "importPath": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "description": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "peekOfCode": "class BillsItem(BaseModel):\n    model_config = ConfigDict(extra=\"ignore\")\n    water_bill: bool = False\n    electricity_bill: bool = False\n    parking_bill: bool = False\n    internet_bill: bool = False\n    tv_bill: bool = False\n    service_bill: bool = False\nclass NearbyServicesDTO(BaseModel):\n    model_config = ConfigDict(extra=\"ignore\")",
+        "detail": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "documentation": {}
+    },
+    {
+        "label": "NearbyServicesDTO",
+        "kind": 6,
+        "importPath": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "description": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "peekOfCode": "class NearbyServicesDTO(BaseModel):\n    model_config = ConfigDict(extra=\"ignore\")\n    Gym: List[GymItem] = Field(default_factory=list)\n    Hospital: List[HospitalItem] = Field(default_factory=list)\n    Schools: List[SchoolItem] = Field(default_factory=list)\n    Supermarket: List[SupermarketItem] = Field(default_factory=list)\n    Bills: List[BillsItem] = Field(default_factory=list)\nclass SinglePostDTO(BaseModel):\n    model_config = ConfigDict(extra=\"ignore\")\n    property: PropertyDTO",
+        "detail": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "documentation": {}
+    },
+    {
+        "label": "SinglePostDTO",
+        "kind": 6,
+        "importPath": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "description": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "peekOfCode": "class SinglePostDTO(BaseModel):\n    model_config = ConfigDict(extra=\"ignore\")\n    property: PropertyDTO\n    property_features: Optional[BodimFeatureRow] = None\n    nearby_services: NearbyServicesDTO\n    owner_of_the_property: Optional[UserRow] = None\n    property_images: List[ImageRow] = Field(default_factory=list)\nclass SinglePostResponse(BaseModel):\n    model_config = ConfigDict(extra=\"ignore\")\n    data: List[SinglePostDTO]",
+        "detail": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "documentation": {}
+    },
+    {
+        "label": "SinglePostResponse",
+        "kind": 6,
+        "importPath": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "description": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "peekOfCode": "class SinglePostResponse(BaseModel):\n    model_config = ConfigDict(extra=\"ignore\")\n    data: List[SinglePostDTO]\n    count: Optional[int] = None\ndef _unwrap_resp(resp: Any) -> Tuple[List[Any], Optional[int]]:\n    if hasattr(resp, \"data\"):\n        return (resp.data or []), getattr(resp, \"count\", None)\n    if isinstance(resp, dict):\n        return resp.get(\"data\", []) or [], resp.get(\"count\")\n    return [], None",
+        "detail": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "documentation": {}
+    },
+    {
+        "label": "PropertyCardDTO",
+        "kind": 6,
+        "importPath": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "description": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "peekOfCode": "class PropertyCardDTO(BaseModel):\n    model_config = ConfigDict(extra=\"ignore\")\n    location_name: str\n    price: int\nclass NearbyServicesRandomDTO(BaseModel):\n    model_config = ConfigDict(extra=\"ignore\")\n    Gym: List[Any] = Field(default_factory=list)\n    Hospital: List[Any] = Field(default_factory=list)\n    Schools: List[Any] = Field(default_factory=list)\n    Supermarket: List[Any] = Field(default_factory=list)",
+        "detail": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "documentation": {}
+    },
+    {
+        "label": "NearbyServicesRandomDTO",
+        "kind": 6,
+        "importPath": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "description": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "peekOfCode": "class NearbyServicesRandomDTO(BaseModel):\n    model_config = ConfigDict(extra=\"ignore\")\n    Gym: List[Any] = Field(default_factory=list)\n    Hospital: List[Any] = Field(default_factory=list)\n    Schools: List[Any] = Field(default_factory=list)\n    Supermarket: List[Any] = Field(default_factory=list)\n    Bills: List[Any] = Field(default_factory=list)\nclass LandingDemoPostDTO(BaseModel):\n    model_config = ConfigDict(extra=\"ignore\")\n    property: PropertyCardDTO",
+        "detail": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "documentation": {}
+    },
+    {
+        "label": "LandingDemoPostDTO",
+        "kind": 6,
+        "importPath": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "description": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "peekOfCode": "class LandingDemoPostDTO(BaseModel):\n    model_config = ConfigDict(extra=\"ignore\")\n    property: PropertyCardDTO\n    owner_of_the_property: Optional[UserRow] = None  \n    nearby_services: NearbyServicesRandomDTO\nclass LandingDemoPostsResponse(BaseModel):\n    model_config = ConfigDict(extra=\"ignore\")\n    data: List[LandingDemoPostDTO] = Field(default_factory=list)\n    count: Optional[int] = None\ndef _pick_one(items: Any) -> List[Any]:",
+        "detail": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "documentation": {}
+    },
+    {
+        "label": "LandingDemoPostsResponse",
+        "kind": 6,
+        "importPath": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "description": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "peekOfCode": "class LandingDemoPostsResponse(BaseModel):\n    model_config = ConfigDict(extra=\"ignore\")\n    data: List[LandingDemoPostDTO] = Field(default_factory=list)\n    count: Optional[int] = None\ndef _pick_one(items: Any) -> List[Any]:\n    \"\"\"\n    Picks one random element from a list and returns it as a single-item list.\n    Returns [] if items is None, not a list, or empty.\n    \"\"\"\n    if not items or not isinstance(items, list):",
+        "detail": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "documentation": {}
+    },
+    {
+        "label": "transform_combined_payload",
+        "kind": 2,
+        "importPath": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "description": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "peekOfCode": "def transform_combined_payload(resp: Any) -> SinglePostResponse:\n    raw_list, count = _unwrap_resp(resp)\n    if not raw_list:\n        return SinglePostResponse(data=[], count=count)\n    property_obj = PropertyRow.model_validate(raw_list[0])\n    feature_obj: Optional[BodimFeatureRow] = None\n    if len(raw_list) >= 2 and isinstance(raw_list[1], dict) and \"data\" in raw_list[1]:\n        env = FeaturesEnvelope.model_validate(raw_list[1])\n        feature_obj = env.data[0] if env.data else None\n    post = _build_single_post(property_obj, feature_obj)",
+        "detail": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "documentation": {}
+    },
+    {
+        "label": "transform_separate_responses",
+        "kind": 2,
+        "importPath": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "description": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "peekOfCode": "def transform_separate_responses(property_resp: Any, features_resp: Any) -> SinglePostResponse:\n    prop_list, prop_count = _unwrap_resp(property_resp)\n    if not prop_list:\n        return SinglePostResponse(data=[], count=prop_count)\n    property_obj = PropertyRow.model_validate(prop_list[0])\n    feat_list, _ = _unwrap_resp(features_resp)\n    feature_obj: Optional[BodimFeatureRow] = None\n    if feat_list and isinstance(feat_list[0], dict) and \"attach_bathroom_count\" in feat_list[0]:\n        feature_obj = BodimFeatureRow.model_validate(feat_list[0])\n    elif feat_list and isinstance(feat_list[0], dict) and \"data\" in feat_list[0]:",
+        "detail": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "documentation": {}
+    },
+    {
+        "label": "transform_landing_demo_posts",
+        "kind": 2,
+        "importPath": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "description": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "peekOfCode": "def transform_landing_demo_posts(property_resp: Any) -> LandingDemoPostsResponse:\n    \"\"\"\n    Transformer for the new landing/demo endpoint.\n    Expects a response like:\n    \"\"\"\n    raw_list, count = _unwrap_resp(property_resp)  \n    if not raw_list:\n        return LandingDemoPostsResponse(data=[], count=count)\n    posts: List[LandingDemoPostDTO] = []\n    for row in raw_list:",
+        "detail": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "documentation": {}
+    },
+    {
+        "label": "transform_landing_demo_post_details",
+        "kind": 2,
+        "importPath": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "description": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "peekOfCode": "def transform_landing_demo_post_details(single_post_resp: Any) -> LandingDemoPostsResponse:\n    \"\"\"\n    Accepts:\n      - SinglePostResponse (your existing response model)\n      - or dict shaped like {\"data\":[...], \"count\":...}\n    \"\"\"\n    raw_list, count = _unwrap_resp(single_post_resp)  \n    if not raw_list:\n        return LandingDemoPostsResponse(data=[], count=count)\n    first = raw_list[0]",
+        "detail": "services.GeneralUserService.app.schemas.GetSinglePostSchema",
+        "documentation": {}
+    },
+    {
+        "label": "ImageModel",
+        "kind": 6,
+        "importPath": "services.GeneralUserService.app.schemas.LandingDemoPostsResponse",
+        "description": "services.GeneralUserService.app.schemas.LandingDemoPostsResponse",
+        "peekOfCode": "class ImageModel(BaseModel):\n    id:str = Field(...)\n    image:str = Field(...)\nclass PropertyModel(BaseModel):\n    id:str = Field(...)\n    property_type:str  = Field(...)\n    price:float = Field(...)\n    location_name:str = Field(...)\n    Images:Optional[List[ImageModel]]\nclass LandingDemoPostsResponse(BaseModel):",
+        "detail": "services.GeneralUserService.app.schemas.LandingDemoPostsResponse",
+        "documentation": {}
+    },
+    {
+        "label": "PropertyModel",
+        "kind": 6,
+        "importPath": "services.GeneralUserService.app.schemas.LandingDemoPostsResponse",
+        "description": "services.GeneralUserService.app.schemas.LandingDemoPostsResponse",
+        "peekOfCode": "class PropertyModel(BaseModel):\n    id:str = Field(...)\n    property_type:str  = Field(...)\n    price:float = Field(...)\n    location_name:str = Field(...)\n    Images:Optional[List[ImageModel]]\nclass LandingDemoPostsResponse(BaseModel):\n    succuss:bool = Field(True)\n    status:int = Field(status.HTTP_200_OK)\n    message:Optional[str] = Field(None)",
+        "detail": "services.GeneralUserService.app.schemas.LandingDemoPostsResponse",
+        "documentation": {}
+    },
+    {
+        "label": "LandingDemoPostsResponse",
+        "kind": 6,
+        "importPath": "services.GeneralUserService.app.schemas.LandingDemoPostsResponse",
+        "description": "services.GeneralUserService.app.schemas.LandingDemoPostsResponse",
+        "peekOfCode": "class LandingDemoPostsResponse(BaseModel):\n    succuss:bool = Field(True)\n    status:int = Field(status.HTTP_200_OK)\n    message:Optional[str] = Field(None)\n    total_available_properties:Optional[int]\n    properties:Optional[List[PropertyModel]]\nclass LandingPageRedisPayload(BaseModel):\n    total_available_properties:Optional[int]\n    properties:Optional[List[PropertyModel]]",
+        "detail": "services.GeneralUserService.app.schemas.LandingDemoPostsResponse",
+        "documentation": {}
+    },
+    {
+        "label": "LandingPageRedisPayload",
+        "kind": 6,
+        "importPath": "services.GeneralUserService.app.schemas.LandingDemoPostsResponse",
+        "description": "services.GeneralUserService.app.schemas.LandingDemoPostsResponse",
+        "peekOfCode": "class LandingPageRedisPayload(BaseModel):\n    total_available_properties:Optional[int]\n    properties:Optional[List[PropertyModel]]",
+        "detail": "services.GeneralUserService.app.schemas.LandingDemoPostsResponse",
+        "documentation": {}
+    },
+    {
+        "label": "FetchLandingDemoPostsService",
+        "kind": 2,
+        "importPath": "services.GeneralUserService.app.services.FetchLandingDemoPostsService",
+        "description": "services.GeneralUserService.app.services.FetchLandingDemoPostsService",
+        "peekOfCode": "def FetchLandingDemoPostsService(db):\n    #check in the cache allready available\n    cached = GeneralUserCacheStorage.GetLandingPageDemos()\n    if cached is None:\n        #call repo layer and get 12 posts\n        payload =  Transactions.FetchLandingDemoPostsRepoFunc(db=db,limit=12)\n        #store in the redis cache memory\n        GeneralUserCacheStorage.SetLandingPageDemos(payload=LandingPageRedisPayload(total_available_properties=len(payload.data),properties=payload.data))\n        cached = GeneralUserCacheStorage.GetLandingPageDemos()\n        return cached",
+        "detail": "services.GeneralUserService.app.services.FetchLandingDemoPostsService",
+        "documentation": {}
+    },
+    {
+        "label": "GetSinglePostService",
+        "kind": 2,
+        "importPath": "services.GeneralUserService.app.services.GetSinglePostService",
+        "description": "services.GeneralUserService.app.services.GetSinglePostService",
+        "peekOfCode": "def GetSinglePostService(db,post_id):\n    try:\n        #check the post id is a valid id\n        if not utils.IsValidModelId(expected_uuid=post_id):\n            raise NotAcceptablePostIDException(message=\"this post id is invalid. can't process!\")\n        #check in the redis memory that post is available\n        cached = GeneralUserCacheStorage.GetProperty(property_id=post_id)\n        if cached is not None:\n            return cached\n        #if not fetch it from databse",
+        "detail": "services.GeneralUserService.app.services.GetSinglePostService",
+        "documentation": {}
+    },
+    {
+        "label": "GetLandingPagePostDetailsService",
+        "kind": 2,
+        "importPath": "services.GeneralUserService.app.services.LandingPagePostDetailsService",
+        "description": "services.GeneralUserService.app.services.LandingPagePostDetailsService",
+        "peekOfCode": "def GetLandingPagePostDetailsService(db,post_id):\n    \"\"\"    \n    :param db: database instance\n    :param post_id: property id\n    return limited setup of property.\n    also in the nearby_services object key values are randomly selected\n    \"\"\"\n    property = GetSinglePostService(db=db,post_id=post_id)\n    dto = transform_landing_demo_post_details(single_post_resp=property)\n    return dto.model_dump()",
+        "detail": "services.GeneralUserService.app.services.LandingPagePostDetailsService",
+        "documentation": {}
+    },
+    {
+        "label": "health_check",
+        "kind": 2,
+        "importPath": "services.GeneralUserService.app.main",
+        "description": "services.GeneralUserService.app.main",
+        "peekOfCode": "def health_check():\n    return {\"status\": \"ok\", \"service\": \"user\"}\n@app.exception_handler(RequestValidationError)\nasync def validation_exception_handler(\n    request: Request,\n    exc: RequestValidationError\n):\n    messages = []\n    for error in exc.errors():\n        messages.append(error[\"msg\"])",
+        "detail": "services.GeneralUserService.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "services.GeneralUserService.app.main",
+        "description": "services.GeneralUserService.app.main",
+        "peekOfCode": "app = FastAPI(title=\"Generaluser Service\")\napp.include_router(FetchLandingDemoPostsRouter)\napp.include_router(SinglePropertyDetailsRouter)\napp.include_router(LandingPagePostDetails)\n@app.get(\"/health\")\ndef health_check():\n    return {\"status\": \"ok\", \"service\": \"user\"}\n@app.exception_handler(RequestValidationError)\nasync def validation_exception_handler(\n    request: Request,",
+        "detail": "services.GeneralUserService.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "GeneralUSerServiceUtils",
+        "kind": 6,
+        "importPath": "services.GeneralUserService.app.utils",
+        "description": "services.GeneralUserService.app.utils",
+        "peekOfCode": "class GeneralUSerServiceUtils:\n    \"\"\"\n    in this class we maintain all the general user service util functions.\n    this class intantiated below of the page. so we can import that instance and use the functions of this class \n    \"\"\"\n    def IsValidModelId(self,expected_uuid:str)->bool:\n        \"\"\"\n        Docstring for StringToUUID\n        :param expected_uuid: expected string to convert to the uuid format\n        :type expected_uuid: str",
+        "detail": "services.GeneralUserService.app.utils",
+        "documentation": {}
+    },
+    {
+        "label": "utils",
+        "kind": 5,
+        "importPath": "services.GeneralUserService.app.utils",
+        "description": "services.GeneralUserService.app.utils",
+        "peekOfCode": "utils = GeneralUSerServiceUtils()",
+        "detail": "services.GeneralUserService.app.utils",
+        "documentation": {}
+    },
+    {
+        "label": "health_check",
+        "kind": 2,
+        "importPath": "services.NotificationService.app.main",
+        "description": "services.NotificationService.app.main",
+        "peekOfCode": "def health_check():\n    return {\"status\": \"ok\", \"service\": \"user\"}",
+        "detail": "services.NotificationService.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "services.NotificationService.app.main",
+        "description": "services.NotificationService.app.main",
+        "peekOfCode": "app = FastAPI(title=\"Notification Service\")\n@app.get(\"/health\")\ndef health_check():\n    return {\"status\": \"ok\", \"service\": \"user\"}",
+        "detail": "services.NotificationService.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "CreateSubscriptionControlelr",
+        "kind": 2,
+        "importPath": "services.SubscriptionService.app.api.SubscriptionController",
+        "description": "services.SubscriptionService.app.api.SubscriptionController",
+        "peekOfCode": "def CreateSubscriptionControlelr(db: Annotated[Client, Depends(get_supabase_client)]):\n    # user_details: Annotated[dict, Depends(authVerification)],\n    DUMMY_USER_UNTILL_FIX_LOGIN_AUTH  = \"3a1dfef2-cc77-4b61-bcfc-030a389f124d\"\n    order_id = CreateSubscriptionService(db=db,user_id=DUMMY_USER_UNTILL_FIX_LOGIN_AUTH)\n    return CreateSubscriptionResponse(order_id=order_id)",
+        "detail": "services.SubscriptionService.app.api.SubscriptionController",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "services.SubscriptionService.app.api.SubscriptionController",
+        "description": "services.SubscriptionService.app.api.SubscriptionController",
+        "peekOfCode": "router = APIRouter(tags=[\"Subscription service\"])\n## NOTE This function is used for create subscription on to a user\n@router.post(\"/create\", description=\"used for create subscription on to a user\",response_model=CreateSubscriptionResponse)\ndef CreateSubscriptionControlelr(db: Annotated[Client, Depends(get_supabase_client)]):\n    # user_details: Annotated[dict, Depends(authVerification)],\n    DUMMY_USER_UNTILL_FIX_LOGIN_AUTH  = \"3a1dfef2-cc77-4b61-bcfc-030a389f124d\"\n    order_id = CreateSubscriptionService(db=db,user_id=DUMMY_USER_UNTILL_FIX_LOGIN_AUTH)\n    return CreateSubscriptionResponse(order_id=order_id)",
+        "detail": "services.SubscriptionService.app.api.SubscriptionController",
+        "documentation": {}
+    },
+    {
+        "label": "Transactions",
+        "kind": 6,
+        "importPath": "services.SubscriptionService.app.db.Transactions",
+        "description": "services.SubscriptionService.app.db.Transactions",
+        "peekOfCode": "class Transactions:\n    @staticmethod\n    def CreateSubscriptionRepoFunc(db:Client,user_id:str,order_id:str):\n        \"\"\"        \n        :param db: supabase db instance\n        :type db: Client\n        :param user_id: user email\n        :type user_email: str\n        :param order_id\n        \"\"\"",
+        "detail": "services.SubscriptionService.app.db.Transactions",
+        "documentation": {}
+    },
+    {
+        "label": "SubscriptionExceptions",
+        "kind": 6,
+        "importPath": "services.SubscriptionService.app.exceptions.SubscriptionExceptions",
+        "description": "services.SubscriptionService.app.exceptions.SubscriptionExceptions",
+        "peekOfCode": "class SubscriptionExceptions(Exception):\n    def __init__(\n        self,\n        error_code: str,\n        error_message: str,\n        status_code: int = 400,\n    ):\n        self.error_code = error_code\n        self.error_message = error_message\n        self.status_code = status_code",
+        "detail": "services.SubscriptionService.app.exceptions.SubscriptionExceptions",
+        "documentation": {}
+    },
+    {
+        "label": "SupabaseApiFailException",
+        "kind": 6,
+        "importPath": "services.SubscriptionService.app.exceptions.SubscriptionExceptions",
+        "description": "services.SubscriptionService.app.exceptions.SubscriptionExceptions",
+        "peekOfCode": "class SupabaseApiFailException(SubscriptionExceptions):\n    def __init__(self, message: str):\n        super().__init__(\n            error_code=\"INTERNAL_SERVER_ERROR\",\n            error_message=message,\n            status_code=500,\n        )\nclass CreateSubscriptionException(SubscriptionExceptions):\n    def __init__(self, message: str):\n        super().__init__(",
+        "detail": "services.SubscriptionService.app.exceptions.SubscriptionExceptions",
+        "documentation": {}
+    },
+    {
+        "label": "CreateSubscriptionException",
+        "kind": 6,
+        "importPath": "services.SubscriptionService.app.exceptions.SubscriptionExceptions",
+        "description": "services.SubscriptionService.app.exceptions.SubscriptionExceptions",
+        "peekOfCode": "class CreateSubscriptionException(SubscriptionExceptions):\n    def __init__(self, message: str):\n        super().__init__(\n            error_code=\"INTERNAL_SERVER_ERROR\",\n            error_message=message,\n            status_code=500,\n        )",
+        "detail": "services.SubscriptionService.app.exceptions.SubscriptionExceptions",
+        "documentation": {}
+    },
+    {
+        "label": "CreateSubscriptionResponse",
+        "kind": 6,
+        "importPath": "services.SubscriptionService.app.schemas.SubscriptionScheme",
+        "description": "services.SubscriptionService.app.schemas.SubscriptionScheme",
+        "peekOfCode": "class CreateSubscriptionResponse(BaseModel):\n    \"\"\"\n    response for create subscription\n    \"\"\"\n    order_id:str = Field(...,example=\"SUB-20240128-ABC123\")\n    status:str = Field(default=\"succuss\")\n    message:str = Field(default=\"subscription created! waiting for payemnt triggers\")",
+        "detail": "services.SubscriptionService.app.schemas.SubscriptionScheme",
+        "documentation": {}
+    },
+    {
+        "label": "CreateSubscriptionService",
+        "kind": 2,
+        "importPath": "services.SubscriptionService.app.services.SubscriptionService",
+        "description": "services.SubscriptionService.app.services.SubscriptionService",
+        "peekOfCode": "def CreateSubscriptionService(db,user_id)->bool:\n    \"\"\"\n    :param user_email: str\n    :return bool\n    \"\"\"\n    #generate order id\n    order_id = CreateOrderId(prefix=\"ORD\") #ORD prefix use for create id for order \n    #call the transaction layer for transaction\n    try:\n        ord = Transactions.CreateSubscriptionRepoFunc(db=db,user_id=user_id,order_id=order_id)",
+        "detail": "services.SubscriptionService.app.services.SubscriptionService",
+        "documentation": {}
+    },
+    {
+        "label": "PaymentMethod",
+        "kind": 6,
+        "importPath": "services.SubscriptionService.app.ENUMS",
+        "description": "services.SubscriptionService.app.ENUMS",
+        "peekOfCode": "class PaymentMethod(str, Enum):\n    VISA = \"VISA\"\n    MASTER = \"MASTER\"\n    AMEX = \"AMEX\"\n    EZCASH = \"EZCASH\"\n    MCASH = \"MCASH\"\n    GENIE = \"GENIE\"\nclass SubscriptionStatus(str, Enum):\n    PENDING = \"pending\"\n    ACTIVE = \"active\"",
+        "detail": "services.SubscriptionService.app.ENUMS",
+        "documentation": {}
+    },
+    {
+        "label": "SubscriptionStatus",
+        "kind": 6,
+        "importPath": "services.SubscriptionService.app.ENUMS",
+        "description": "services.SubscriptionService.app.ENUMS",
+        "peekOfCode": "class SubscriptionStatus(str, Enum):\n    PENDING = \"pending\"\n    ACTIVE = \"active\"\n    EXPIRED = \"expired\"\n    CANCELLED = \"cancelled\"\nclass PaymentStatus(str, Enum):\n    SUCCESS = \"success\"\n    FAILED = \"failed\"\n    PENDING = \"pending\"",
+        "detail": "services.SubscriptionService.app.ENUMS",
+        "documentation": {}
+    },
+    {
+        "label": "PaymentStatus",
+        "kind": 6,
+        "importPath": "services.SubscriptionService.app.ENUMS",
+        "description": "services.SubscriptionService.app.ENUMS",
+        "peekOfCode": "class PaymentStatus(str, Enum):\n    SUCCESS = \"success\"\n    FAILED = \"failed\"\n    PENDING = \"pending\"",
+        "detail": "services.SubscriptionService.app.ENUMS",
+        "documentation": {}
+    },
+    {
+        "label": "health_check",
+        "kind": 2,
+        "importPath": "services.SubscriptionService.app.main",
+        "description": "services.SubscriptionService.app.main",
+        "peekOfCode": "def health_check():\n    return {\"status\": \"ok\", \"service\": \"user\"}\n@app.exception_handler(RequestValidationError)\nasync def validation_exception_handler(\n    request: Request,\n    exc: RequestValidationError\n):\n    messages = []\n    for error in exc.errors():\n        messages.append(error[\"msg\"])",
+        "detail": "services.SubscriptionService.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "services.SubscriptionService.app.main",
+        "description": "services.SubscriptionService.app.main",
+        "peekOfCode": "app = FastAPI(title=\"Subscription Service\")\napp.include_router(subscription_router)\n@app.get(\"/health\")\ndef health_check():\n    return {\"status\": \"ok\", \"service\": \"user\"}\n@app.exception_handler(RequestValidationError)\nasync def validation_exception_handler(\n    request: Request,\n    exc: RequestValidationError\n):",
+        "detail": "services.SubscriptionService.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "CreateOrderId",
+        "kind": 2,
+        "importPath": "services.SubscriptionService.app.util",
+        "description": "services.SubscriptionService.app.util",
+        "peekOfCode": "def CreateOrderId(prefix=\"SUB\"):\n    \"\"\"    \n    :param prefix: what type of order id\n    this function is used to create unique order id for the orders \n    \"\"\"\n    unique_part = uuid.uuid4().hex[:8].upper()\n    date_time_part = datetime.now().strftime(\"%Y%m%d\")\n    return f\"{prefix}-{date_time_part}-{unique_part}\"",
+        "detail": "services.SubscriptionService.app.util",
+        "documentation": {}
+    },
+    {
+        "label": "health_check",
+        "kind": 2,
+        "importPath": "server",
+        "description": "server",
+        "peekOfCode": "def health_check():\n    return {\"status\": \"ok\"}",
+        "detail": "server",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "server",
+        "description": "server",
+        "peekOfCode": "app = FastAPI(title=\"Main API\")\n#cores add kara\ncors_origins = [origin.strip() for origin in os.getenv(\"CORS_ALLOW_ORIGINS\", \"*\").split(\",\") if origin.strip()]\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=cors_origins,\n    allow_credentials=True,\n    allow_methods=[\"*\"],\n    allow_headers=[\"*\"],\n)",
+        "detail": "server",
+        "documentation": {}
+    },
+    {
+        "label": "cors_origins",
+        "kind": 5,
+        "importPath": "server",
+        "description": "server",
+        "peekOfCode": "cors_origins = [origin.strip() for origin in os.getenv(\"CORS_ALLOW_ORIGINS\", \"*\").split(\",\") if origin.strip()]\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=cors_origins,\n    allow_credentials=True,\n    allow_methods=[\"*\"],\n    allow_headers=[\"*\"],\n)\napp.mount(\"/auth\", auth_service_app)\napp.mount(\"/admin\", admin_service_app)",
+        "detail": "server",
+        "documentation": {}
+    }
+]

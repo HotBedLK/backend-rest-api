@@ -14,6 +14,7 @@ from services.AutomationService.app.main import app as automation_service_app
 from services.NotificationService.app.main import app as notification_service_app
 from services.GeneralUserService.app.main import app as general_user_service_app
 from services.CashingService.app.main import app as cashing_service_app
+from services.SubscriptionService.app.main import app as subscription_service
 
 app = FastAPI(title="Main API")
 
@@ -31,6 +32,7 @@ app.mount("/auth", auth_service_app)
 app.mount("/admin", admin_service_app)
 app.mount("/notification",notification_service_app)
 app.mount("/general",general_user_service_app)
+app.mount("/subscription",subscription_service)
 
 
 @app.get("/health")

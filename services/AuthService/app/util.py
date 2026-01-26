@@ -11,6 +11,7 @@ from .exceptions.registerExceptions import (
     InvalidMobileNumberException,
     SmsGatewayConfigException,
     SmsGatewayException,
+    payloadCreationException
 )
 
 
@@ -42,15 +43,15 @@ def hash_password(password: str) -> str:
     return f"pbkdf2_sha256$200000${salt.hex()}${derived.hex()}"
 
 
-def build_user_payload(register_data: dict, otp_code: str) -> dict:
+def build_user_payload(register_data: dict, otp) -> dict:
     return {
         "first_name": register_data["first_name"],
         "last_name": register_data["last_name"],
         "password": hash_password(register_data["password"]),
         "mobile_number": register_data["mobile_number"],
-        "email": register_data["email"],
+        # "email": register_data["email"],
         "verified": False,
-        "verification_token": hash_otp_code(otp_code),
+        "verification_token": hash_otp_code(otp),
         "verifired_time": None,
         "premium": False,
         "user_role": "viwer",
@@ -69,9 +70,11 @@ def _get_sms_config() -> tuple[str, str]:
         ) from exc
 
 
-def send_otp_sms(recipient: str, otp_code: str) -> None:
+def send_otp_sms(recipient: str, otp_code: str):
     api_token, sender_id = _get_sms_config()
     normalized_recipient = normalize_mobile_number(recipient)
+    
+    # create payload and headers
     payload = {
         "recipient": normalized_recipient,
         "sender_id": sender_id,
@@ -85,21 +88,24 @@ def send_otp_sms(recipient: str, otp_code: str) -> None:
     }
 
     try:
+        # try to send sms
         response = httpx.post(
             "https://app.text.lk/api/v3/sms/send",
             json=payload,
             headers=headers,
             timeout=10.0,
         )
-        response.raise_for_status()
+        data = response.json()
+        return data['data']['uid']
+    
     except httpx.HTTPError as exc:
+        # raise and exceptions
         raise SmsGatewayException(message="Failed to reach SMS gateway.") from exc
 
-    data = response.json()
-    if data.get("status") != "success":
-        raise SmsGatewayException(
-            message=data.get("message", "SMS gateway returned an error.")
-        )
+    # if data.get("status") != "success":
+    #     raise SmsGatewayException(
+    #         message=data.get("message", "SMS gateway returned an error.")
+    #     )
 
 
 def normalize_mobile_number(number: str) -> str:
@@ -114,3 +120,45 @@ def normalize_mobile_number(number: str) -> str:
 
 def compair_otp_codes(provided_otp: str, stored_hashed_otp: str) -> bool:
     return hash_otp_code(str(provided_otp)) == stored_hashed_otp
+
+
+def create_otp_attempt_payload(user_id, otp_code):
+    """
+    create a payload for otp attempts table
+
+    :param user_id: id of the user
+    :param otp_code: otp code
+    """
+    try:
+        sent_at = datetime.now(timezone.utc)
+        expires_at = sent_at + timedelta(minutes=10)
+        
+        return {
+                "user_id": user_id,
+                "otp_hash": hash_otp_code(otp_code),
+                "sent_at": sent_at.isoformat(),
+                "expires_at": expires_at.isoformat(),
+                "send_count": 1,
+                "status": "sent",
+            }
+    except Exception as exc:
+        raise payloadCreationException("Failed to create OTP attempt payload.") from exc
+
+def log_sms_sender_payload(user_id, perpose, sms_id):
+    """
+    create payload for the log sms sender
+    
+    :param user_id: id of the user
+    :param perpose: perpose of send sms
+    :param sms_id: sms_id get from sms gateway
+    """
+    try:
+        return {
+            'user_id' : user_id,
+            'created_at' : datetime.now(timezone.utc).isoformat(),
+            'perpose' : perpose,
+            'sms_id' : sms_id,
+        }
+    except Exception as exc:
+        raise payloadCreationException("Failed to create log sms sender payload.") from exc
+    

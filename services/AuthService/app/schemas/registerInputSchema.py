@@ -24,11 +24,11 @@ class RegisterInputSchema(BaseModel):
         description="Mobile number must be 10 digits",
         examples=["0767722791"],
     )
-    email: EmailStr = Field(
-        ...,
-        description="A valid email address is required",
-        examples=["user@example.com"],
-    )
+    # email: EmailStr = Field(
+    #     ...,
+    #     description="A valid email address is required",
+    #     examples=["user@example.com"],
+    # )
 
     @field_validator("password")
     def validate_password(cls, value):

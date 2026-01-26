@@ -1,14 +1,14 @@
-from datetime import datetime, timedelta, timezone
-
+from ..db.usesrs import userTransactions
 from app.utils.rate_limiter import get_redis_client
-from ..db.transactions import Transactions
 from ..exceptions.registerExceptions import (
     ResendOtpCooldownException,
-    ResendOtpLimitException,
     UserAlreadyVerifiedException,
     UserNotFoundException,
+    databaseUpdateFaildException
 )
-from ..util import generate_otp_code, hash_otp_code, send_otp_sms
+from ..util import generate_otp_code, hash_otp_code, send_otp_sms, check_cooldown_key, log_sms_sender_payload, create_otp_attempt_payload, set_cooldown_key
+from ..db.sms_sender import smsSenderTransactions
+from ..db.otp_attempts import otpAttenptsTransactions
 
 RESEND_LIMIT = 3
 RESEND_WINDOW_SECONDS = 600
@@ -16,58 +16,52 @@ RESEND_COOLDOWN_SECONDS = 60
 
 
 def resend_otp_service(resend_data, db):
-    if resend_data.get("email"):
-        user = Transactions.get_user_for_verification_by_email(
-            email=resend_data["email"], db=db
-        )
-    else:
-        user = Transactions.get_user_for_verification_by_mobile(
-            number=resend_data["mobile_number"], db=db
-        )
-
-    if not user:
-        raise UserNotFoundException(message="User not found.")
-
-    if user.get("verified"):
-        raise UserAlreadyVerifiedException(message="User already verified.")
-
+    """
+    resend otp service for the account verification
+    
+    :param resend_data: data
+    :param db: database connection
+    """
+    # create redis client
     redis_client = get_redis_client()
-    cooldown_key = f"otp:resend:cooldown:{user['id']}"
-    if redis_client.exists(cooldown_key):
-        raise ResendOtpCooldownException(
-            message="Please wait before requesting another OTP."
-        )
 
-    count_key = f"otp:resend:count:{user['id']}"
-    count = redis_client.incr(count_key)
-    if count == 1:
-        redis_client.expire(count_key, RESEND_WINDOW_SECONDS)
+    # check mobile number available on user database
+    user_availability = userTransactions.get_user_for_verification_by_mobile(number=resend_data["mobile_number"], db=db)
+    print(user_availability)
+    if user_availability['status'] == False:
+        return UserNotFoundException(message="User not found.")
 
-    if count > RESEND_LIMIT:
-        raise ResendOtpLimitException(message="OTP resend limit reached.")
+    # check user verified or not
+    if user_availability['data'][0]['verified'] == True:
+        return UserAlreadyVerifiedException(message="User already verified.")
 
-    redis_client.set(cooldown_key, "1", ex=RESEND_COOLDOWN_SECONDS)
+    # check the otp send rate limits
+    check_cooldownkey = check_cooldown_key(redis_client=redis_client, id=user_availability['data'][0]['id'])
+    if check_cooldownkey == True:
+        return ResendOtpCooldownException(message="user previose OTP code. it's still not expired.")
 
-    otp_code = generate_otp_code()
-    token_hash = hash_otp_code(otp_code)
-    Transactions.update_verification_token(user_id=user["id"], token_hash=token_hash, db=db)
+    # generate new otp code
+    otp_code = generate_otp_code()    
 
-    sent_at = datetime.now(timezone.utc)
-    expires_at = sent_at + timedelta(minutes=10)
-    Transactions.create_otp_attempt(
-        payload={
-            "user_id": user["id"],
-            "otp_hash": token_hash,
-            "sent_at": sent_at.isoformat(),
-            "expires_at": expires_at.isoformat(),
-            "send_count": count,
-            "status": "sent",
-        },
-        db=db,
-    )
+    # store in cache database
+    set_cache = set_cooldown_key(resend_cooldown_seconds=RESEND_COOLDOWN_SECONDS, redis_client=redis_client, id=user_availability['data'][0]['id'])
+    if set_cache == False:
+        return databaseUpdateFaildException(message="redis db not updated")
 
-    send_otp_sms(recipient=user["mobile_number"], otp_code=otp_code)
+    # send otp to the mobile number 
+    send_id = send_otp_sms(otp_code=otp_code, recipient=resend_data["mobile_number"])
 
+    # store the otp attempt
+    store_otp = otpAttenptsTransactions.create_otp_attempt(db=db, payload=create_otp_attempt_payload(otp_code=hash_otp_code(otp_code), user_id=user_availability['data'][0]['id']))
+    if store_otp['status'] == False:
+        raise databaseUpdateFaildException("Failed to store OTP attempt. please try again later.")
+
+    # store in sms logs
+    store_sms_log = smsSenderTransactions.log_sms_sender(db=db, payload=log_sms_sender_payload(perpose='verification', sms_id=send_id, user_id=user_availability['data'][0]['id']))
+    if store_sms_log['status'] == False:
+        return databaseUpdateFaildException("Failed to log SMS sender. please try again later.")
+
+    # return result
     return {
         "status": "success",
         "message": "OTP resent successfully.",

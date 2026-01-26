@@ -49,20 +49,20 @@ class Transactions:
         except APIError as exc:
             raise SupabaseApiFailException(message=str(exc)) from exc
 
-    @staticmethod
-    def get_user_for_verification_by_mobile(number: str, db: Client):
-        try:
-            response = (
-                db.table("Users")
-                .select("id,email,mobile_number,verification_token,verified,created_at")
-                .eq("mobile_number", number)
-                .execute()
-            )
-            if not response.data:
-                return None
-            return response.data[0]
-        except APIError as exc:
-            raise SupabaseApiFailException(message=str(exc)) from exc
+    # @staticmethod
+    # def get_user_for_verification_by_mobile(number: str, db: Client):
+    #     try:
+    #         response = (
+    #             db.table("Users")
+    #             .select("id,email,mobile_number,verification_token,verified,created_at")
+    #             .eq("mobile_number", number)
+    #             .execute()
+    #         )
+    #         if not response.data:
+    #             return None
+    #         return response.data[0]
+    #     except APIError as exc:
+    #         raise SupabaseApiFailException(message=str(exc)) from exc
 
     @staticmethod
     def mark_user_verified(user_id: str, db: Client, verified_time: str):

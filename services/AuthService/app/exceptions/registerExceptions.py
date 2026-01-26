@@ -159,3 +159,11 @@ class payloadCreationException(RegisterException):
             error_message=message,
             status_code=403,
         )
+
+class verificationCodeAlredySendException(RegisterException):
+    def __init__(self, message: str):
+        super().__init__(
+            error_code="PAYLOAD_CREATION_ERROR",
+            error_message=message,
+            status_code=403,
+        )

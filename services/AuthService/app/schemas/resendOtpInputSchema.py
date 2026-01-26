@@ -1,12 +1,12 @@
-from pydantic import BaseModel, EmailStr, Field, field_validator, model_validator
+from pydantic import BaseModel, EmailStr, Field, field_validator
 
 
 class ResendOtpInputSchema(BaseModel):
-    email: EmailStr | None = Field(
-        default=None,
-        description="Email address used for registration",
-        examples=["user@example.com"],
-    )
+    # email: EmailStr | None = Field(
+    #     default=None,
+    #     description="Email address used for registration",
+    #     examples=["user@example.com"],
+    # )
     mobile_number: str | None = Field(
         default=None,
         description="Mobile number used for registration (10 digits starting with 0)",
@@ -23,8 +23,8 @@ class ResendOtpInputSchema(BaseModel):
             raise ValueError("Mobile number must be 10 digits starting with 0")
         return value
 
-    @model_validator(mode="after")
-    def require_email_or_mobile(self):
-        if not self.email and not self.mobile_number:
-            raise ValueError("Either email or mobile_number is required")
-        return self
+    # @model_validator(mode="after")
+    # def require_email_or_mobile(self):
+    #     if not self.email and not self.mobile_number:
+    #         raise ValueError("Either email or mobile_number is required")
+    #     return self

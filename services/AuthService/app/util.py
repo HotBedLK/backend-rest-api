@@ -162,3 +162,23 @@ def log_sms_sender_payload(user_id, perpose, sms_id):
     except Exception as exc:
         raise payloadCreationException("Failed to create log sms sender payload.") from exc
     
+
+def check_cooldown_key(redis_client, id):
+    # recreate cooldown key
+    cooldown_key = f"otp:resend:cooldown:{id}"
+    
+    # check cooldown key exist or not
+    if redis_client.exists(cooldown_key):
+        return True
+    else:
+        return False
+    
+def set_cooldown_key(redis_client, id, resend_cooldown_seconds):
+    # creat a cooldown key
+    cooldown_key = f"otp:resend:cooldown:{id}"
+    
+    # store in redis db
+    store = redis_client.set(cooldown_key, 1, ex=resend_cooldown_seconds)
+    
+    # return the store status
+    return store

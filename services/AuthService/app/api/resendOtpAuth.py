@@ -11,7 +11,7 @@ from ..services.resendOtpService import resend_otp_service
 router = APIRouter(tags=["Auth Routes"])
 
 
-@router.post("/resend-otp", description="resend otp code")
+@router.post("/resend-otp-verification", description="resend otp code")
 def resend_otp(
     data: ResendOtpInputSchema,
     db: Annotated[Client, Depends(get_supabase_client)],

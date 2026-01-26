@@ -56,3 +56,35 @@ class userTransactions:
         except APIError as exc:
             # raise exceptios
             raise SupabaseApiFailException(message=str(exc)) from exc
+        
+    @staticmethod
+    def get_user_for_verification_by_mobile(number: str, db: Client):
+        """
+        search mobile number in 'user' table. if so give id, verified fields
+        
+        :param number: Description
+        :type number: str
+        :param db: Description
+        :type db: Client
+        """
+        try:
+            response = (
+                db.table("Users")
+                .select("id,verified")
+                # .select("id,email,mobile_number,verification_token,verified,created_at")
+                .eq("mobile_number", number)
+                .execute()
+            )
+            if len(response.data) == 0:
+                return {
+                    'status' : False,
+                    'data' : response.data
+                }
+            else:
+                return {
+                    'status' : True,
+                    'data' : response.data
+                }
+            # return response.data[0]
+        except APIError as exc:
+            raise SupabaseApiFailException(message=str(exc)) from exc

@@ -51,7 +51,7 @@ def build_user_payload(register_data: dict, otp) -> dict:
         "mobile_number": register_data["mobile_number"],
         # "email": register_data["email"],
         "verified": False,
-        "verification_token": hash_otp_code(otp),
+        # "verification_token": hash_otp_code(otp),
         "verifired_time": None,
         "premium": False,
         "user_role": "viwer",

@@ -115,27 +115,27 @@ class Transactions:
         except APIError as exc:
             raise SupabaseApiFailException(message=str(exc)) from exc
         
-    @staticmethod
-    def get_usser_detials_by_mobilenumer(mobile_number:str, db:Client):
-        try:
-            user = (
-                db.table("Users")
-                .select("*")
-                .eq("mobile_number", mobile_number)
-                .execute()
-            )
-            if len(user.data) != 0:
-                return {
-                    'data' : user.data,
-                    'status' : True
-                }
-            else:
-                return {
-                    'data' : user.data,
-                    'status' : False     
-                }
-        except APIError as exc:
-            raise SupabaseApiFailException(message=str(exc)) from exc
+    # @staticmethod
+    # def get_usser_detials_by_mobilenumer(mobile_number:str, db:Client):
+    #     try:
+    #         user = (
+    #             db.table("Users")
+    #             .select("*")
+    #             .eq("mobile_number", mobile_number)
+    #             .execute()
+    #         )
+    #         if len(user.data) != 0:
+    #             return {
+    #                 'data' : user.data,
+    #                 'status' : True
+    #             }
+    #         else:
+    #             return {
+    #                 'data' : user.data,
+    #                 'status' : False     
+    #             }
+    #     except APIError as exc:
+    #         raise SupabaseApiFailException(message=str(exc)) from exc
 
     @staticmethod
     def get_newest_otp_by_userid(user_id:str, db:Client):

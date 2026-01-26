@@ -1,18 +1,22 @@
-from ..db.transactions import Transactions
+from ..db.usesrs import userTransactions
 from ..exceptions.registerExceptions import credencialsNotMatchedException
 from app.services import jwt
 from fastapi.responses import JSONResponse
 
 def loginService(loginData:dict,db):
-    pass
+    """
+    check user allowed to services or not using users mobile number and password
+    
+    :param loginData: mobile_number and passwrod
+    :type loginData: dict
+    :param db: database connection
+    """    
     # check the mobile number is exist or not
-    user_exists = Transactions.get_usser_detials_by_mobilenumer(mobile_number=loginData["mobile_number"],db=db)
+    user_exists = userTransactions.get_usser_detials_by_mobilenumer(number=loginData["mobile_number"],db=db)
     if user_exists['status'] == False:
         raise credencialsNotMatchedException("credencials not matched. please check and try again.")
-    print(user_exists)
 
     # # check the password is correct or not (compaire plain password with hashed password)
-    print(loginData["password"], user_exists["data"][0]["password"])
     data = jwt.decodePasword(palinPassword=loginData["password"], encriptPassword=user_exists["data"][0]["password"])
     if data == False:
         raise credencialsNotMatchedException("credencials not matched. please check and try again.")
@@ -21,12 +25,11 @@ def loginService(loginData:dict,db):
     refreshKey = jwt.encodeRefreshTocken(user_exists["data"][0]["id"])
 
     # issue the JWT token
-    createToken = jwt.encodeToken(mobileNumber=user_exists["data"][0]["mobile_number"], role=user_exists["data"][0]["user_role"])
-    print(f'this is for token {createToken}')
+    jwtToken = jwt.encodeToken(mobileNumber=user_exists["data"][0]["mobile_number"], role=user_exists["data"][0]["user_role"])
     
     # return the token
     return JSONResponse(status_code=200, content={
         "status": "success",
-        "token": createToken,
+        "token": jwtToken,
         "refresh_token" : refreshKey
     })

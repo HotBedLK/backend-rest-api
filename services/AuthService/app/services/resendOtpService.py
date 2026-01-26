@@ -26,7 +26,7 @@ def resend_otp_service(resend_data, db):
     redis_client = get_redis_client()
 
     # check mobile number available on user database
-    user_availability = userTransactions.get_user_for_verification_by_mobile(number=resend_data["mobile_number"], db=db)
+    user_availability = userTransactions.get_usser_detials_by_mobilenumer(number=resend_data["mobile_number"], db=db)
     print(user_availability)
     if user_availability['status'] == False:
         return UserNotFoundException(message="User not found.")

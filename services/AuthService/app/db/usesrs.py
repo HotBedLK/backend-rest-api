@@ -58,7 +58,7 @@ class userTransactions:
             raise SupabaseApiFailException(message=str(exc)) from exc
         
     @staticmethod
-    def get_user_for_verification_by_mobile(number: str, db: Client):
+    def get_usser_detials_by_mobilenumer(number: str, db: Client):
         """
         search mobile number in 'user' table. if so give id, verified fields
         
@@ -70,8 +70,7 @@ class userTransactions:
         try:
             response = (
                 db.table("Users")
-                .select("id,verified")
-                # .select("id,email,mobile_number,verification_token,verified,created_at")
+                .select("id,verified,password,mobile_number,user_role")
                 .eq("mobile_number", number)
                 .execute()
             )

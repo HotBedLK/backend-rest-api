@@ -12,6 +12,7 @@ router  = APIRouter(tags=["Auth Routes"])
 
 @router.post("/",description="register a user in the system")
 def register(
+
     data: RegisterInputSchema,
     db: Annotated[Client, Depends(get_supabase_client)],
     _: Annotated[None, Depends(RateLimiter(limit=5, window_seconds=60, key_prefix="register"))],

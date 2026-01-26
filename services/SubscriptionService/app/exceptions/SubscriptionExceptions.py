@@ -30,5 +30,13 @@ class CreateSubscriptionException(SubscriptionExceptions):
             status_code=500,
         )
 
+class InitiatePaymentSubscriptionException(SubscriptionExceptions):
+    def __init__(self, message: str,error_code:str,status_code:int):
+        super().__init__(
+            error_code=error_code,
+            error_message=message,
+            status_code=status_code,
+        )
+
 
 

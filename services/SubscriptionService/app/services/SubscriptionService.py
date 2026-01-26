@@ -1,7 +1,8 @@
 from services.SubscriptionService.app.util import CreateOrderId
-from services.SubscriptionService.app.db.Transactions import Transactions
 from services.SubscriptionService.app.exceptions.SubscriptionExceptions import (
     CreateSubscriptionException)
+from services.SubscriptionService.app.db.subscription_db import subscription
+
 
 
 def CreateSubscriptionService(db,user_id)->bool:
@@ -13,7 +14,7 @@ def CreateSubscriptionService(db,user_id)->bool:
     order_id = CreateOrderId(prefix="ORD") #ORD prefix use for create id for order 
     #call the transaction layer for transaction
     try:
-        ord = Transactions.CreateSubscriptionRepoFunc(db=db,user_id=user_id,order_id=order_id)
+        ord = subscription.CreateSubscriptionRepoFunc(db=db,user_id=user_id,order_id=order_id)
         if ord is not None:
             return ord
         raise CreateSubscriptionException(message="transactional error!")
@@ -21,3 +22,4 @@ def CreateSubscriptionService(db,user_id)->bool:
         raise
     except Exception as e:
         print("something happened in CreateSubscriptionService function",e)
+

@@ -11,7 +11,7 @@ from ..services.verifyService import verify_service
 router = APIRouter(tags=["Auth Routes"])
 
 
-@router.post("/verify", description="verify account with otp")
+@router.post("/verify_account", description="verify account with otp")
 def verify_account(
     data: VerifyInputSchema,
     db: Annotated[Client, Depends(get_supabase_client)],

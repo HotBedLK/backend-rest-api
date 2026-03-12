@@ -17,4 +17,5 @@ def resend_otp(
     db: Annotated[Client, Depends(get_supabase_client)],
     _: Annotated[None, Depends(RateLimiter(limit=5, window_seconds=60, key_prefix="resend-otp"))],
 ):
+    pass
     return resend_otp_service(resend_data=data.model_dump(), db=db)

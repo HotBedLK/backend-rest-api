@@ -1,6 +1,7 @@
 import hashlib
 import secrets
 from datetime import datetime, timedelta, timezone
+from enum import Enum
 
 from dateutil import parser
 
@@ -49,12 +50,12 @@ def build_user_payload(register_data: dict, otp) -> dict:
         "last_name": register_data["last_name"],
         "password": hash_password(register_data["password"]),
         "mobile_number": register_data["mobile_number"],
-        # "email": register_data["email"],
         "verified": False,
-        # "verification_token": hash_otp_code(otp),
         "verifired_time": None,
         "premium": False,
-        "user_role": "viwer",
+        "user_role": userRoleEnum.viewer.value,
+        'modify_account' : False,
+        'created_at' : get_current_local_time(),
     }
 
 
@@ -70,6 +71,7 @@ def _get_sms_config() -> tuple[str, str]:
         ) from exc
 
 
+# this must transfer to the main app utils file
 def send_otp_sms(recipient: str, otp_code: str):
     api_token, sender_id = _get_sms_config()
     normalized_recipient = normalize_mobile_number(recipient)
@@ -96,6 +98,7 @@ def send_otp_sms(recipient: str, otp_code: str):
             timeout=10.0,
         )
         data = response.json()
+        print(data)
         return data['data']['uid']
     
     except httpx.HTTPError as exc:
@@ -122,7 +125,7 @@ def compair_otp_codes(provided_otp: str, stored_hashed_otp: str) -> bool:
     return hash_otp_code(str(provided_otp)) == stored_hashed_otp
 
 
-def create_otp_attempt_payload(user_id, otp_code):
+def create_otp_sms_payload(user_id, otp_code, sms_id):
     """
     create a payload for otp attempts table
 
@@ -130,17 +133,24 @@ def create_otp_attempt_payload(user_id, otp_code):
     :param otp_code: otp code
     """
     try:
-        sent_at = datetime.now(timezone.utc)
-        expires_at = sent_at + timedelta(minutes=10)
-        
-        return {
+        # sent_at = datetime.now(timezone.utc)
+        # expires_at = sent_at + timedelta(minutes=10)
+        payload = {
                 "user_id": user_id,
                 "otp_hash": hash_otp_code(otp_code),
-                "sent_at": sent_at.isoformat(),
-                "expires_at": expires_at.isoformat(),
-                "send_count": 1,
-                "status": "sent",
+                # "sent_at": sent_at.isoformat(),
+                "send_at": get_current_local_time(),
+                # "expires_at": expires_at.isoformat(),
+                "expire_at": get_current_local_time(hours=3),
+                "used_status": False,
+                'created_at' : get_current_local_time(),
+                'purpose' : smsPurposeEnum.verification.value,
+                'used_time' : None,
+                'sms_id' : sms_id
             }
+        print(payload)
+
+        return payload 
     except Exception as exc:
         raise payloadCreationException("Failed to create OTP attempt payload.") from exc
 
@@ -182,3 +192,43 @@ def set_cooldown_key(redis_client, id, resend_cooldown_seconds):
     
     # return the store status
     return store
+
+class userRoleEnum(str, Enum):
+    viewer = "viewer"
+    editor = "lister"
+    admin = "admin"
+
+class smsPurposeEnum(str, Enum):
+    verification  = 'verification'
+    passwordreset = 'passwordreset'
+    login = 'login'
+    alert = 'alert'
+    promotion = 'promotion'
+
+def get_current_local_time(hours = 0, minutes = 0):
+    # get sri japura timezone
+    colombo_time = timezone(timedelta(hours=5, minutes=30))
+    # add extra hours and minutes if needed
+    new_time = datetime.now(colombo_time) + timedelta(hours=hours, minutes=minutes)
+    return new_time.isoformat()
+
+def get_previose_local_time(hours = 0, minutes = 0):
+    # get sri japura timezone
+    colombo_time = timezone(timedelta(hours=5, minutes=30))
+    # add extra hours and minutes if needed
+    new_time = datetime.now(colombo_time) - timedelta(hours=hours, minutes=minutes)
+    return new_time.isoformat()
+
+def current_time():
+    # get sri japura timezone
+    colombo_time = timezone(timedelta(hours=5, minutes=30))
+    # add extra hours and minutes if needed
+    new_time = datetime.now(colombo_time)
+    return new_time
+
+def back_to_localtime(provided_time):
+    # convert string to datetime
+    timed_format = datetime.fromisoformat(provided_time)
+    # set as to Asia/colombo time some
+    current_local_time = timed_format + timedelta(hours=5, minutes=30)
+    return current_local_time

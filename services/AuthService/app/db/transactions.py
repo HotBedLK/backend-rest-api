@@ -98,22 +98,22 @@ class Transactions:
     #     except APIError as exc:
     #         raise SupabaseApiFailException(message=str(exc)) from exc
 
-    @staticmethod
-    def get_latest_otp_attempt(user_id: str, db: Client):
-        try:
-            response = (
-                db.table("otp_attempts")
-                .select("id,otp_hash,sent_at,expires_at,send_count,status")
-                .eq("user_id", user_id)
-                .order("sent_at", desc=True)
-                .limit(1)
-                .execute()
-            )
-            if not response.data:
-                return None
-            return response.data[0]
-        except APIError as exc:
-            raise SupabaseApiFailException(message=str(exc)) from exc
+    # @staticmethod
+    # def get_latest_otp_attempt(user_id: str, db: Client):
+    #     try:
+    #         response = (
+    #             db.table("otp_attempts")
+    #             .select("id,otp_hash,sent_at,expires_at,send_count,status")
+    #             .eq("user_id", user_id)
+    #             .order("sent_at", desc=True)
+    #             .limit(1)
+    #             .execute()
+    #         )
+    #         if not response.data:
+    #             return None
+    #         return response.data[0]
+    #     except APIError as exc:
+    #         raise SupabaseApiFailException(message=str(exc)) from exc
         
     # @staticmethod
     # def get_usser_detials_by_mobilenumer(mobile_number:str, db:Client):

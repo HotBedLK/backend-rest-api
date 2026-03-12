@@ -167,3 +167,19 @@ class verificationCodeAlredySendException(RegisterException):
             error_message=message,
             status_code=403,
         )
+
+class otpNotSendFromSystem(RegisterException):
+    def __init__(self, message: str):
+        super().__init__(
+            error_code="ANY OTP NOT SEND FROM SYSETM TO VERIFY A ACCOUNT",
+            error_message=message,
+            status_code=403,
+        )
+
+class optSmsNotAllowedToModified(RegisterException):
+    def __init__(self, message: str):
+        super().__init__(
+            error_code="OTP_SMS_NOT_ALLOWED_TO_MODIFIED",
+            error_message=message,
+            status_code=403,
+        )

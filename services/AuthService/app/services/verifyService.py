@@ -7,46 +7,61 @@ from ..exceptions.registerExceptions import (
     OtpExpiredException,
     UserAlreadyVerifiedException,
     UserNotFoundException,
+    otpNotSendFromSystem,
+    userNotAllowedToModified,
+    optSmsNotAllowedToModified
 )
-from ..util import hash_otp_code, is_otp_expired, is_timestamp_expired
+from ..util import hash_otp_code, is_otp_expired, is_timestamp_expired, get_current_local_time, back_to_localtime, current_time
+from ..db.usesrs import userTransactions
+from ..db.sms_sender import smsSenderTransactions
+from ..db.otp_attempts import otpAttenptsTransactions
 
 
 def verify_service(verify_data, db):
-    if verify_data.get("email"):
-        user = Transactions.get_user_for_verification_by_email(
-            email=verify_data["email"], db=db
-        )
-    else:
-        user = Transactions.get_user_for_verification_by_mobile(
-            number=verify_data["mobile_number"], db=db
-        )
+    """
+    vefiry user by sms OTP
+    
+    :param verify_data: data that provide by user ( mobile number, otp )
+    :type verify_data: dict
+    :param db: database connection
+    :type db: Client
+    """
 
-    if not user:
+    # check the user are avilable by provided mobile number
+    user = userTransactions.get_usser_detials_by_mobilenumer(verify_data["mobile_number"], db=db)
+    # print(user)
+    if user["status"] == False:
         raise UserNotFoundException(message="User not found.")
+    print('execute one......................')
 
-    if user.get("verified"):
+    # check the user is verified or not
+    if user["data"][0]['verified'] == True:
         raise UserAlreadyVerifiedException(message="User already verified.")
+    print('execute two......................')
 
-    latest_attempt = Transactions.get_latest_otp_attempt(user_id=user["id"], db=db)
-    if latest_attempt:
-        if is_timestamp_expired(latest_attempt["expires_at"]):
-            raise OtpExpiredException(message="OTP code has expired.")
-    else:
-        if is_otp_expired(user["created_at"]):
-            raise OtpExpiredException(message="OTP code has expired.")
-
-    if hash_otp_code(verify_data["otp"]) != user.get("verification_token"):
+    # check the latest verification code expiry time
+    latest_otp = smsSenderTransactions.get_latest_otp_attempt(user_id=user["data"][0]["id"], db=db)
+    if latest_otp == None:
+        raise otpNotSendFromSystem(message="not ditect any send OTP from the system")
+    elif back_to_localtime(latest_otp['expire_at']) < current_time():
+        raise OtpExpiredException(message="OTP code has expired.")
+    
+    # check provide otp is match with existing code
+    elif hash_otp_code(verify_data["otp"]) != latest_otp['otp_hash']:
         raise InvalidOtpException(message="Invalid OTP code.")
+    print('execute one......................')
 
-    Transactions.mark_user_verified(
-        user_id=user["id"],
-        db=db,
-        verified_time=datetime.now(timezone.utc).isoformat(),
-    )
-    redis_client = get_redis_client()
-    redis_client.delete(f"otp:resend:count:{user['id']}")
-    redis_client.delete(f"otp:resend:cooldown:{user['id']}")
+    # update user table
+    update_user = userTransactions.update_user_by_mobile_number({'verified' : True, 'verifired_time' : get_current_local_time(hours=5, minutes=30)}, verify_data['mobile_number'], db)
+    if update_user == False:
+        raise userNotAllowedToModified(message='user table not allowed to modify')
 
+    # update otp_sms table
+    update_otp_sms = otpAttenptsTransactions.update_otp_sms({"used_status" : True, "used_time" : get_current_local_time(hours=5, minutes=30)}, latest_otp['id'], db)
+    if update_otp_sms == False:
+        raise optSmsNotAllowedToModified(message="OTP_SMS not allowed to modify")
+    
+    # final output
     return {
         "status": "success",
         "message": "Account verified successfully.",

@@ -87,3 +87,26 @@ class userTransactions:
             # return response.data[0]
         except APIError as exc:
             raise SupabaseApiFailException(message=str(exc)) from exc
+        
+    @staticmethod
+    def update_user_by_mobile_number(payload:dict, mobile_number:str, db:Client):
+        """
+        update any user field reffering user's mobile number
+        
+        :param payload: all the filed want to update
+        :type number: dict
+        :param mobile_number: user's mobile number
+        :type db: str
+        :param db: Description
+        :type db: Client
+        """
+        try:
+            user = db.table('Users').update(payload).eq('mobile_number', mobile_number).execute()
+             # return boolean value
+            if len(user.data) == 0:
+                return False
+            else:
+                return True
+        except APIError as exc:
+            # raise exceptios
+            raise SupabaseApiFailException(message=str(exc)) from exc

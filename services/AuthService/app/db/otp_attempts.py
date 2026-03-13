@@ -55,7 +55,24 @@ class otpAttenptsTransactions:
         :param db : database client connection
         """
         try:
-            response = db.table("otp_sms").select('created_at').eq('user_id', id).lt("created_at", get_previose_local_time(minutes=resend_window_minutes)).order("created_at", desc=True).limit(3).execute()
+            response = db.table("otp_sms").select('created_at').eq('user_id', id).eq('purpose', "verification").lt("created_at", get_previose_local_time(minutes=resend_window_minutes)).order("created_at", desc=True).limit(3).execute()
+            if len(response.data) < resend_limit:
+                return False
+            else:
+                return True
+        except APIError as exc:
+            raise SupabaseApiFailException(message=str(exc)) from exc
+        
+    @staticmethod
+    def check_login_otp_ratelimit(id:str, db: Client, resend_limit = 3, resend_window_minutes = 10):
+        """
+        purpose : check how many account verification otp send withign given time periode
+
+        :param id : user_id
+        :param db : database client connection
+        """
+        try:
+            response = db.table("otp_sms").select('created_at').eq('user_id', id).eq('purpose', "login").lt("created_at", get_previose_local_time(minutes=resend_window_minutes)).order("created_at", desc=True).limit(3).execute()
             if len(response.data) < resend_limit:
                 return False
             else:

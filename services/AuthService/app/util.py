@@ -125,7 +125,9 @@ def compair_otp_codes(provided_otp: str, stored_hashed_otp: str) -> bool:
     return hash_otp_code(str(provided_otp)) == stored_hashed_otp
 
 
-def create_otp_sms_payload(user_id, otp_code, sms_id):
+# *update registration, verification and otp_code resend endpoints as well
+# changes 1 : add purpose
+def create_otp_sms_payload(purpose ,user_id, otp_code, sms_id):
     """
     create a payload for otp attempts table
 
@@ -144,7 +146,7 @@ def create_otp_sms_payload(user_id, otp_code, sms_id):
                 "expire_at": get_current_local_time(hours=3),
                 "used_status": False,
                 'created_at' : get_current_local_time(),
-                'purpose' : smsPurposeEnum.verification.value,
+                'purpose' : purpose,
                 'used_time' : None,
                 'sms_id' : sms_id
             }

@@ -6,7 +6,7 @@ from ..exceptions.registerExceptions import (
     UserNotFoundException,
     databaseUpdateFaildException
 )
-from ..util import generate_otp_code, hash_otp_code, send_otp_sms, create_otp_sms_payload,
+from ..util import generate_otp_code, hash_otp_code, send_otp_sms, create_otp_sms_payload
 from ..db.otp_attempts import otpAttenptsTransactions
 
 RESEND_LIMIT = 3

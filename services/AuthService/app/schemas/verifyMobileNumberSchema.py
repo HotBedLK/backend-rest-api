@@ -1,5 +1,5 @@
 from pydantic import BaseModel, Field, field_validator
-from util import smsPurposeEnum
+from ..util import smsPurposeEnum
 
 class VerifyMobileNumberSchema(BaseModel):
     mobile_number: str = Field(

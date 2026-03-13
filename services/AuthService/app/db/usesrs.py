@@ -70,7 +70,7 @@ class userTransactions:
         try:
             response = (
                 db.table("Users")
-                .select("id,verified,password,mobile_number,user_role")
+                .select("id,verified,password,mobile_number,user_role,modify_account")
                 .eq("mobile_number", number)
                 .execute()
             )

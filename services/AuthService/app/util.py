@@ -174,7 +174,7 @@ def log_sms_sender_payload(user_id, perpose, sms_id):
     except Exception as exc:
         raise payloadCreationException("Failed to create log sms sender payload.") from exc
     
-def user_update_payload(modify_account:bool= None, verified:bool = None):
+def user_update_payload(modify_account:bool= None, verified:bool = None, password=None):
     """
     create payload for update user table
     
@@ -191,8 +191,11 @@ def user_update_payload(modify_account:bool= None, verified:bool = None):
     if modify_account is not None:
         payload['modify_account'] = modify_account
         
-    if verified is not None:
+    elif verified is not None:
         payload['verified'] = verified
+
+    elif password is not None:
+        payload['password'] = hash_password(password=password)
 
     try:
         return payload

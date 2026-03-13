@@ -174,6 +174,22 @@ def log_sms_sender_payload(user_id, perpose, sms_id):
     except Exception as exc:
         raise payloadCreationException("Failed to create log sms sender payload.") from exc
     
+def user_update_payload(mobile_number, modify_account):
+    """
+    create payload for update user
+    
+    :param user_id: id of the user
+    :param perpose: perpose of send sms
+    :param sms_id: sms_id get from sms gateway
+    """
+    try:
+        return {
+            'mobile_number' : mobile_number,
+            'updated_at' : datetime.now(timezone.utc).isoformat(),
+            'modify_account' : modify_account
+        }
+    except Exception as exc:
+        raise payloadCreationException("Failed to create log sms sender payload.") from exc
 
 def check_cooldown_key(redis_client, id):
     # recreate cooldown key

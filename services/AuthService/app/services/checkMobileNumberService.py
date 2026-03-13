@@ -1,9 +1,9 @@
 from ..db.usesrs import userTransactions
 from ..db.sms_sender import smsSenderTransactions
 from ..db.otp_attempts import otpAttenptsTransactions
-from ..util import generate_otp_code,  send_otp_sms, create_otp_sms_payload, log_sms_sender_payload, set_cooldown_key
+from ..util import generate_otp_code,  send_otp_sms, create_otp_sms_payload, log_sms_sender_payload, set_cooldown_key, user_update_payload
 from fastapi.responses import JSONResponse
-from ..exceptions.registerExceptions import databaseUpdateFaildException, UserNotFoundException, verificationCodeAlredySendException
+from ..exceptions.registerExceptions import databaseUpdateFaildException, UserNotFoundException, verificationCodeAlredySendException, userNotAllowedToModified
 from ..util import userRoleEnum, smsPurposeEnum
 
 RESEND_LIMIT = 3
@@ -37,7 +37,12 @@ def checkMobileNumber(data, db):
     # store in otp_sms table
     store_otp_attempt = otpAttenptsTransactions.create_otp_sms(payload=create_otp_sms_payload(purpose=smsPurposeEnum.passwordreset.value, user_id=checkDb['data'][0]['id'], otp_code=otp_code, sms_id=send_id), db=db)
     if store_otp_attempt['status'] == False:
-        return databaseUpdateFaildException(message="Fail to store otp attempt in db")
+        raise databaseUpdateFaildException(message="Fail to store otp attempt in db")
+
+    # allowed user table modify
+    modify_user = userTransactions.update_user_by_mobile_number(payload=user_update_payload(mobile_number=data.mobile_number , modify_account=True), mobile_number=data.mobile_number, db=db)
+    if modify_user == False:
+        raise userNotAllowedToModified(message="user not allowed to modify account")
 
     # send success message
     return JSONResponse(status_code=200, content={

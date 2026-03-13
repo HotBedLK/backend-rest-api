@@ -56,6 +56,14 @@
         "documentation": {}
     },
     {
+        "label": "config",
+        "importPath": "decouple",
+        "description": "decouple",
+        "isExtraImport": true,
+        "detail": "decouple",
+        "documentation": {}
+    },
+    {
         "label": "os",
         "kind": 6,
         "isExtraImport": true,
@@ -657,6 +665,14 @@
         "documentation": {}
     },
     {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
         "label": "FastAPI",
         "importPath": "fastapi",
         "description": "fastapi",
@@ -674,6 +690,14 @@
     },
     {
         "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
         "importPath": "fastapi",
         "description": "fastapi",
         "isExtraImport": true,
@@ -889,6 +913,14 @@
         "documentation": {}
     },
     {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "datetime",
         "importPath": "datetime",
         "description": "datetime",
@@ -1010,6 +1042,14 @@
     },
     {
         "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
         "importPath": "datetime",
         "description": "datetime",
         "isExtraImport": true,
@@ -1546,6 +1586,38 @@
         "documentation": {}
     },
     {
+        "label": "field_validator",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "EmailStr",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "SecretStr",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "HttpUrl",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
         "label": "JSONResponse",
         "importPath": "fastapi.responses",
         "description": "fastapi.responses",
@@ -1618,6 +1690,14 @@
         "documentation": {}
     },
     {
+        "label": "decodeRefreshToken",
+        "importPath": "app.services.jwt",
+        "description": "app.services.jwt",
+        "isExtraImport": true,
+        "detail": "app.services.jwt",
+        "documentation": {}
+    },
+    {
         "label": "jwt",
         "importPath": "app.services",
         "description": "app.services",
@@ -1655,6 +1735,14 @@
         "isExtraImport": true,
         "importPath": "hashlib",
         "description": "hashlib",
+        "detail": "hashlib",
+        "documentation": {}
+    },
+    {
+        "label": "md5",
+        "importPath": "hashlib",
+        "description": "hashlib",
+        "isExtraImport": true,
         "detail": "hashlib",
         "documentation": {}
     },
@@ -1920,6 +2008,38 @@
         "documentation": {}
     },
     {
+        "label": "InitiateSubscription",
+        "importPath": "services.SubscriptionService.app.schemas.SubscriptionScheme",
+        "description": "services.SubscriptionService.app.schemas.SubscriptionScheme",
+        "isExtraImport": true,
+        "detail": "services.SubscriptionService.app.schemas.SubscriptionScheme",
+        "documentation": {}
+    },
+    {
+        "label": "create_payment_model",
+        "importPath": "services.SubscriptionService.app.schemas.SubscriptionScheme",
+        "description": "services.SubscriptionService.app.schemas.SubscriptionScheme",
+        "isExtraImport": true,
+        "detail": "services.SubscriptionService.app.schemas.SubscriptionScheme",
+        "documentation": {}
+    },
+    {
+        "label": "DatabaseSubscriptionModel",
+        "importPath": "services.SubscriptionService.app.schemas.SubscriptionScheme",
+        "description": "services.SubscriptionService.app.schemas.SubscriptionScheme",
+        "isExtraImport": true,
+        "detail": "services.SubscriptionService.app.schemas.SubscriptionScheme",
+        "documentation": {}
+    },
+    {
+        "label": "initiate_payment",
+        "importPath": "services.SubscriptionService.app.services.InitiatePaymentService",
+        "description": "services.SubscriptionService.app.services.InitiatePaymentService",
+        "isExtraImport": true,
+        "detail": "services.SubscriptionService.app.services.InitiatePaymentService",
+        "documentation": {}
+    },
+    {
         "label": "PaymentStatus",
         "importPath": "services.SubscriptionService.app.ENUMS",
         "description": "services.SubscriptionService.app.ENUMS",
@@ -1944,6 +2064,14 @@
         "documentation": {}
     },
     {
+        "label": "InitiatePaymentSubscriptionException",
+        "importPath": "services.SubscriptionService.app.exceptions.SubscriptionExceptions",
+        "description": "services.SubscriptionService.app.exceptions.SubscriptionExceptions",
+        "isExtraImport": true,
+        "detail": "services.SubscriptionService.app.exceptions.SubscriptionExceptions",
+        "documentation": {}
+    },
+    {
         "label": "CreateSubscriptionException",
         "importPath": "services.SubscriptionService.app.exceptions.SubscriptionExceptions",
         "description": "services.SubscriptionService.app.exceptions.SubscriptionExceptions",
@@ -1960,6 +2088,38 @@
         "documentation": {}
     },
     {
+        "label": "subscription",
+        "importPath": "services.SubscriptionService.app.db.subscription_db",
+        "description": "services.SubscriptionService.app.db.subscription_db",
+        "isExtraImport": true,
+        "detail": "services.SubscriptionService.app.db.subscription_db",
+        "documentation": {}
+    },
+    {
+        "label": "subscription",
+        "importPath": "services.SubscriptionService.app.db.subscription_db",
+        "description": "services.SubscriptionService.app.db.subscription_db",
+        "isExtraImport": true,
+        "detail": "services.SubscriptionService.app.db.subscription_db",
+        "documentation": {}
+    },
+    {
+        "label": "create_payment_response_model",
+        "importPath": "services.SubscriptionService.app.util",
+        "description": "services.SubscriptionService.app.util",
+        "isExtraImport": true,
+        "detail": "services.SubscriptionService.app.util",
+        "documentation": {}
+    },
+    {
+        "label": "generate_payhere_hash",
+        "importPath": "services.SubscriptionService.app.util",
+        "description": "services.SubscriptionService.app.util",
+        "isExtraImport": true,
+        "detail": "services.SubscriptionService.app.util",
+        "documentation": {}
+    },
+    {
         "label": "CreateOrderId",
         "importPath": "services.SubscriptionService.app.util",
         "description": "services.SubscriptionService.app.util",
@@ -1968,19 +2128,19 @@
         "documentation": {}
     },
     {
-        "label": "Transactions",
-        "importPath": "services.SubscriptionService.app.db.Transactions",
-        "description": "services.SubscriptionService.app.db.Transactions",
-        "isExtraImport": true,
-        "detail": "services.SubscriptionService.app.db.Transactions",
-        "documentation": {}
-    },
-    {
         "label": "Enum",
         "importPath": "enum",
         "description": "enum",
         "isExtraImport": true,
         "detail": "enum",
+        "documentation": {}
+    },
+    {
+        "label": "hash_otp_code",
+        "importPath": "services.AuthService.app.util",
+        "description": "services.AuthService.app.util",
+        "isExtraImport": true,
+        "detail": "services.AuthService.app.util",
         "documentation": {}
     },
     {
@@ -2045,6 +2205,14 @@
         "description": "services.SubscriptionService.app.main",
         "isExtraImport": true,
         "detail": "services.SubscriptionService.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "importPath": "webhooks.main",
+        "description": "webhooks.main",
+        "isExtraImport": true,
+        "detail": "webhooks.main",
         "documentation": {}
     },
     {
@@ -3141,7 +3309,16 @@
         "kind": 2,
         "importPath": "services.SubscriptionService.app.api.SubscriptionController",
         "description": "services.SubscriptionService.app.api.SubscriptionController",
-        "peekOfCode": "def CreateSubscriptionControlelr(db: Annotated[Client, Depends(get_supabase_client)]):\n    # user_details: Annotated[dict, Depends(authVerification)],\n    DUMMY_USER_UNTILL_FIX_LOGIN_AUTH  = \"3a1dfef2-cc77-4b61-bcfc-030a389f124d\"\n    order_id = CreateSubscriptionService(db=db,user_id=DUMMY_USER_UNTILL_FIX_LOGIN_AUTH)\n    return CreateSubscriptionResponse(order_id=order_id)",
+        "peekOfCode": "def CreateSubscriptionControlelr(db: Annotated[Client, Depends(get_supabase_client)]):\n    # user_details: Annotated[dict, Depends(authVerification)],\n    DUMMY_USER_UNTILL_FIX_LOGIN_AUTH  = \"3a1dfef2-cc77-4b61-bcfc-030a389f124d\"\n    order_id = CreateSubscriptionService(db=db,user_id=DUMMY_USER_UNTILL_FIX_LOGIN_AUTH)\n    return CreateSubscriptionResponse(order_id=order_id)\n##* NOTE this functio is used for generate payhere hook for send to the frontend\n#? why this ? because of some users are closethe web page after seeing subscription price. from this we \n#? are getting actual order id and its atatus. in the frontend must be manage the state\n@router.post(\"/initiate\",description=\"this controller is used to return payment gateway frontend hook\")\ndef InitiatePayment(db: Annotated[Client,Depends(get_supabase_client)],order_id:InitiateSubscription):",
+        "detail": "services.SubscriptionService.app.api.SubscriptionController",
+        "documentation": {}
+    },
+    {
+        "label": "InitiatePayment",
+        "kind": 2,
+        "importPath": "services.SubscriptionService.app.api.SubscriptionController",
+        "description": "services.SubscriptionService.app.api.SubscriptionController",
+        "peekOfCode": "def InitiatePayment(db: Annotated[Client,Depends(get_supabase_client)],order_id:InitiateSubscription):\n    return initiate_payment(db=db,order_id=order_id.model_dump().get(\"order_id\"))",
         "detail": "services.SubscriptionService.app.api.SubscriptionController",
         "documentation": {}
     },
@@ -3150,17 +3327,26 @@
         "kind": 5,
         "importPath": "services.SubscriptionService.app.api.SubscriptionController",
         "description": "services.SubscriptionService.app.api.SubscriptionController",
-        "peekOfCode": "router = APIRouter(tags=[\"Subscription service\"])\n## NOTE This function is used for create subscription on to a user\n@router.post(\"/create\", description=\"used for create subscription on to a user\",response_model=CreateSubscriptionResponse)\ndef CreateSubscriptionControlelr(db: Annotated[Client, Depends(get_supabase_client)]):\n    # user_details: Annotated[dict, Depends(authVerification)],\n    DUMMY_USER_UNTILL_FIX_LOGIN_AUTH  = \"3a1dfef2-cc77-4b61-bcfc-030a389f124d\"\n    order_id = CreateSubscriptionService(db=db,user_id=DUMMY_USER_UNTILL_FIX_LOGIN_AUTH)\n    return CreateSubscriptionResponse(order_id=order_id)",
+        "peekOfCode": "router = APIRouter(tags=[\"Subscription service\"])\n##* NOTE This function is used for create subscription on to a user\n#? this controller task is create partial order record in the databse table. after payment sucuuss we are up\n#?date the record with succiss states. for now its in pending state\n@router.post(\"/create\", description=\"used for create subscription on to a user\",response_model=CreateSubscriptionResponse)\ndef CreateSubscriptionControlelr(db: Annotated[Client, Depends(get_supabase_client)]):\n    # user_details: Annotated[dict, Depends(authVerification)],\n    DUMMY_USER_UNTILL_FIX_LOGIN_AUTH  = \"3a1dfef2-cc77-4b61-bcfc-030a389f124d\"\n    order_id = CreateSubscriptionService(db=db,user_id=DUMMY_USER_UNTILL_FIX_LOGIN_AUTH)\n    return CreateSubscriptionResponse(order_id=order_id)",
         "detail": "services.SubscriptionService.app.api.SubscriptionController",
         "documentation": {}
     },
     {
-        "label": "Transactions",
+        "label": "Subscriptions",
         "kind": 6,
-        "importPath": "services.SubscriptionService.app.db.Transactions",
-        "description": "services.SubscriptionService.app.db.Transactions",
-        "peekOfCode": "class Transactions:\n    @staticmethod\n    def CreateSubscriptionRepoFunc(db:Client,user_id:str,order_id:str):\n        \"\"\"        \n        :param db: supabase db instance\n        :type db: Client\n        :param user_id: user email\n        :type user_email: str\n        :param order_id\n        \"\"\"",
-        "detail": "services.SubscriptionService.app.db.Transactions",
+        "importPath": "services.SubscriptionService.app.db.subscription_db",
+        "description": "services.SubscriptionService.app.db.subscription_db",
+        "peekOfCode": "class Subscriptions:\n    def CreateSubscriptionRepoFunc(self,db:Client,user_id:str,order_id:str):\n        \"\"\"        \n        :param db: supabase db instance\n        :type db: Client\n        :param user_id: user email\n        :type user_email: str\n        :param order_id\n        \"\"\"\n        #create order in the subscription table with status - pending",
+        "detail": "services.SubscriptionService.app.db.subscription_db",
+        "documentation": {}
+    },
+    {
+        "label": "subscription",
+        "kind": 5,
+        "importPath": "services.SubscriptionService.app.db.subscription_db",
+        "description": "services.SubscriptionService.app.db.subscription_db",
+        "peekOfCode": "subscription = Subscriptions()",
+        "detail": "services.SubscriptionService.app.db.subscription_db",
         "documentation": {}
     },
     {
@@ -3186,7 +3372,16 @@
         "kind": 6,
         "importPath": "services.SubscriptionService.app.exceptions.SubscriptionExceptions",
         "description": "services.SubscriptionService.app.exceptions.SubscriptionExceptions",
-        "peekOfCode": "class CreateSubscriptionException(SubscriptionExceptions):\n    def __init__(self, message: str):\n        super().__init__(\n            error_code=\"INTERNAL_SERVER_ERROR\",\n            error_message=message,\n            status_code=500,\n        )",
+        "peekOfCode": "class CreateSubscriptionException(SubscriptionExceptions):\n    def __init__(self, message: str):\n        super().__init__(\n            error_code=\"INTERNAL_SERVER_ERROR\",\n            error_message=message,\n            status_code=500,\n        )\nclass InitiatePaymentSubscriptionException(SubscriptionExceptions):\n    def __init__(self, message: str,error_code:str,status_code:int):\n        super().__init__(",
+        "detail": "services.SubscriptionService.app.exceptions.SubscriptionExceptions",
+        "documentation": {}
+    },
+    {
+        "label": "InitiatePaymentSubscriptionException",
+        "kind": 6,
+        "importPath": "services.SubscriptionService.app.exceptions.SubscriptionExceptions",
+        "description": "services.SubscriptionService.app.exceptions.SubscriptionExceptions",
+        "peekOfCode": "class InitiatePaymentSubscriptionException(SubscriptionExceptions):\n    def __init__(self, message: str,error_code:str,status_code:int):\n        super().__init__(\n            error_code=error_code,\n            error_message=message,\n            status_code=status_code,\n        )",
         "detail": "services.SubscriptionService.app.exceptions.SubscriptionExceptions",
         "documentation": {}
     },
@@ -3195,8 +3390,62 @@
         "kind": 6,
         "importPath": "services.SubscriptionService.app.schemas.SubscriptionScheme",
         "description": "services.SubscriptionService.app.schemas.SubscriptionScheme",
-        "peekOfCode": "class CreateSubscriptionResponse(BaseModel):\n    \"\"\"\n    response for create subscription\n    \"\"\"\n    order_id:str = Field(...,example=\"SUB-20240128-ABC123\")\n    status:str = Field(default=\"succuss\")\n    message:str = Field(default=\"subscription created! waiting for payemnt triggers\")",
+        "peekOfCode": "class CreateSubscriptionResponse(BaseModel):\n    \"\"\"\n    response for create subscription\n    \"\"\"\n    order_id:str = Field(...,example=\"SUB-20240128-ABC123\")\n    status:str = Field(default=\"succuss\")\n    message:str = Field(default=\"subscription created! waiting for payemnt triggers\")\n##* schema for the payment initiate controller\n##! required order id\nclass InitiateSubscription(BaseModel):",
         "detail": "services.SubscriptionService.app.schemas.SubscriptionScheme",
+        "documentation": {}
+    },
+    {
+        "label": "InitiateSubscription",
+        "kind": 6,
+        "importPath": "services.SubscriptionService.app.schemas.SubscriptionScheme",
+        "description": "services.SubscriptionService.app.schemas.SubscriptionScheme",
+        "peekOfCode": "class InitiateSubscription(BaseModel):\n    order_id:str = Field(...,examples=[\"ORD-XXXX-XXXX\"],description=\"recived order if from previous trigger\")\n    @field_validator(\"order_id\")\n    @classmethod\n    def order_id_validator(cls,value:str):\n        if len(value) < 1:\n            raise ValueError(\"order id cannot be empty\")\n        if not value.startswith(\"ORD\"):\n            raise ValueError(\"invalid order id\")\n        return value",
+        "detail": "services.SubscriptionService.app.schemas.SubscriptionScheme",
+        "documentation": {}
+    },
+    {
+        "label": "DatabaseUserModel",
+        "kind": 6,
+        "importPath": "services.SubscriptionService.app.schemas.SubscriptionScheme",
+        "description": "services.SubscriptionService.app.schemas.SubscriptionScheme",
+        "peekOfCode": "class DatabaseUserModel(BaseModel):\n    email: str\n    last_name: str\n    first_name: str\n    mobile_number: str\nclass DatabaseSubscriptionModel(BaseModel):\n    id: str\n    created_at: datetime\n    user_id: str\n    order_id: str",
+        "detail": "services.SubscriptionService.app.schemas.SubscriptionScheme",
+        "documentation": {}
+    },
+    {
+        "label": "DatabaseSubscriptionModel",
+        "kind": 6,
+        "importPath": "services.SubscriptionService.app.schemas.SubscriptionScheme",
+        "description": "services.SubscriptionService.app.schemas.SubscriptionScheme",
+        "peekOfCode": "class DatabaseSubscriptionModel(BaseModel):\n    id: str\n    created_at: datetime\n    user_id: str\n    order_id: str\n    status: str\n    started_at: Optional[datetime]\n    valid_until: Optional[datetime]\n    amount: Optional[int]\n    currency: str",
+        "detail": "services.SubscriptionService.app.schemas.SubscriptionScheme",
+        "documentation": {}
+    },
+    {
+        "label": "InitiatePaymentModel",
+        "kind": 6,
+        "importPath": "services.SubscriptionService.app.schemas.SubscriptionScheme",
+        "description": "services.SubscriptionService.app.schemas.SubscriptionScheme",
+        "peekOfCode": "class InitiatePaymentModel(BaseModel):\n    \"\"\"\n    Model for sending payment data to frontend\n    \"\"\"\n    merchant_id: str = Field(..., description=\"Your PayHere Merchant ID\")\n    order_id: str = Field(..., description=\"Order ID from database\")\n    amount: str = Field(default=\"500.00\", description=\"Always 500 LKR\")\n    currency: str = Field(default=\"LKR\", description=\"Currency\")\n    # User info from database Users object\n    first_name: str = Field(..., description=\"From database Users.first_name\")",
+        "detail": "services.SubscriptionService.app.schemas.SubscriptionScheme",
+        "documentation": {}
+    },
+    {
+        "label": "create_payment_model",
+        "kind": 2,
+        "importPath": "services.SubscriptionService.app.schemas.SubscriptionScheme",
+        "description": "services.SubscriptionService.app.schemas.SubscriptionScheme",
+        "peekOfCode": "def create_payment_model(\n    db_subscription: DatabaseSubscriptionModel,\n    merchant_id: str,\n    hash_value: str,\n    return_url: str,\n    cancel_url: str,\n    notify_url: str\n) -> InitiatePaymentModel:\n    \"\"\"\n    Convert database subscription to payment model for frontend",
+        "detail": "services.SubscriptionService.app.schemas.SubscriptionScheme",
+        "documentation": {}
+    },
+    {
+        "label": "initiate_payment",
+        "kind": 2,
+        "importPath": "services.SubscriptionService.app.services.InitiatePaymentService",
+        "description": "services.SubscriptionService.app.services.InitiatePaymentService",
+        "peekOfCode": "def initiate_payment(db,order_id:str):\n  \"\"\"\n  This function is used for getting order record from the database with order id with help\n  of repo layer and return it to the controller\n  :param db: supabase d instance\n  :param order_id: valid order id\n  :type order_id: str\n  \"\"\"\n  order = subscription.GetSubscription(db=db,order_id=order_id)\n  if not order[\"status\"]:",
+        "detail": "services.SubscriptionService.app.services.InitiatePaymentService",
         "documentation": {}
     },
     {
@@ -3204,7 +3453,7 @@
         "kind": 2,
         "importPath": "services.SubscriptionService.app.services.SubscriptionService",
         "description": "services.SubscriptionService.app.services.SubscriptionService",
-        "peekOfCode": "def CreateSubscriptionService(db,user_id)->bool:\n    \"\"\"\n    :param user_email: str\n    :return bool\n    \"\"\"\n    #generate order id\n    order_id = CreateOrderId(prefix=\"ORD\") #ORD prefix use for create id for order \n    #call the transaction layer for transaction\n    try:\n        ord = Transactions.CreateSubscriptionRepoFunc(db=db,user_id=user_id,order_id=order_id)",
+        "peekOfCode": "def CreateSubscriptionService(db,user_id)->bool:\n    \"\"\"\n    :param user_email: str\n    :return bool\n    \"\"\"\n    #generate order id\n    order_id = CreateOrderId(prefix=\"ORD\") #ORD prefix use for create id for order \n    #call the transaction layer for transaction\n    try:\n        ord = subscription.CreateSubscriptionRepoFunc(db=db,user_id=user_id,order_id=order_id)",
         "detail": "services.SubscriptionService.app.services.SubscriptionService",
         "documentation": {}
     },
@@ -3258,8 +3507,71 @@
         "kind": 2,
         "importPath": "services.SubscriptionService.app.util",
         "description": "services.SubscriptionService.app.util",
-        "peekOfCode": "def CreateOrderId(prefix=\"SUB\"):\n    \"\"\"    \n    :param prefix: what type of order id\n    this function is used to create unique order id for the orders \n    \"\"\"\n    unique_part = uuid.uuid4().hex[:8].upper()\n    date_time_part = datetime.now().strftime(\"%Y%m%d\")\n    return f\"{prefix}-{date_time_part}-{unique_part}\"",
+        "peekOfCode": "def CreateOrderId(prefix=\"SUB\"):\n    \"\"\"    \n    :param prefix: what type of order id\n    this function is used to create unique order id for the orders \n    \"\"\"\n    unique_part = uuid.uuid4().hex[:8].upper()\n    date_time_part = datetime.now().strftime(\"%Y%m%d\")\n    return f\"{prefix}-{date_time_part}-{unique_part}\"\nimport hashlib\ndef generate_payhere_hash(order_id: str, amount: str, currency: str) -> str:",
         "detail": "services.SubscriptionService.app.util",
+        "documentation": {}
+    },
+    {
+        "label": "generate_payhere_hash",
+        "kind": 2,
+        "importPath": "services.SubscriptionService.app.util",
+        "description": "services.SubscriptionService.app.util",
+        "peekOfCode": "def generate_payhere_hash(order_id: str, amount: str, currency: str) -> str:\n    \"\"\"\n    Generate PayHere hash\n    Format: hash = md5(merchant_id + order_id + amount + currency + md5(merchant_secret))\n    \"\"\"\n    hashed_secret = hashlib.md5(\n        PAYHERE_MERCHENT_SECRET.encode() \n    ).hexdigest().upper() \n    if \".\" not in amount:\n        amount = f\"{float(amount):.2f}\"",
+        "detail": "services.SubscriptionService.app.util",
+        "documentation": {}
+    },
+    {
+        "label": "create_payment_response_model",
+        "kind": 2,
+        "importPath": "services.SubscriptionService.app.util",
+        "description": "services.SubscriptionService.app.util",
+        "peekOfCode": "def create_payment_response_model(order):\n    \"\"\"\n    this function gets row database data object and convert it to pydantic data model to sent frontend\n    :param order: valid order\n    \"\"\"\n    subscription_data = DatabaseSubscriptionModel(**order[\"data\"][0])\n    return create_payment_model(\n      db_subscription=subscription_data,\n      merchant_id=PAYHERE_MERCHENT_ID,\n      hash_value=\"\",",
+        "detail": "services.SubscriptionService.app.util",
+        "documentation": {}
+    },
+    {
+        "label": "PAYHERE_MERCHENT_ID",
+        "kind": 5,
+        "importPath": "services.SubscriptionService.app.util",
+        "description": "services.SubscriptionService.app.util",
+        "peekOfCode": "PAYHERE_MERCHENT_ID = config(\"PAYHERE_MERCHENT_ID\")\nFRONTEND_CANCEL_URL = config(\"FRONTEND_CANCEL_URL\")\nFRONTEND_RETURN_URL= config(\"FRONTEND_RETURN_URL\")\nPAYHERE_WEBHOOK_URL =  config(\"WEBHOOK_URL_PAYHERE\")\nPAYHERE_MERCHENT_SECRET = config(\"PAYHERE_MERCHENT_SECRET\")\ndef CreateOrderId(prefix=\"SUB\"):\n    \"\"\"    \n    :param prefix: what type of order id\n    this function is used to create unique order id for the orders \n    \"\"\"",
+        "detail": "services.SubscriptionService.app.util",
+        "documentation": {}
+    },
+    {
+        "label": "FRONTEND_CANCEL_URL",
+        "kind": 5,
+        "importPath": "services.SubscriptionService.app.util",
+        "description": "services.SubscriptionService.app.util",
+        "peekOfCode": "FRONTEND_CANCEL_URL = config(\"FRONTEND_CANCEL_URL\")\nFRONTEND_RETURN_URL= config(\"FRONTEND_RETURN_URL\")\nPAYHERE_WEBHOOK_URL =  config(\"WEBHOOK_URL_PAYHERE\")\nPAYHERE_MERCHENT_SECRET = config(\"PAYHERE_MERCHENT_SECRET\")\ndef CreateOrderId(prefix=\"SUB\"):\n    \"\"\"    \n    :param prefix: what type of order id\n    this function is used to create unique order id for the orders \n    \"\"\"\n    unique_part = uuid.uuid4().hex[:8].upper()",
+        "detail": "services.SubscriptionService.app.util",
+        "documentation": {}
+    },
+    {
+        "label": "PAYHERE_WEBHOOK_URL",
+        "kind": 5,
+        "importPath": "services.SubscriptionService.app.util",
+        "description": "services.SubscriptionService.app.util",
+        "peekOfCode": "PAYHERE_WEBHOOK_URL =  config(\"WEBHOOK_URL_PAYHERE\")\nPAYHERE_MERCHENT_SECRET = config(\"PAYHERE_MERCHENT_SECRET\")\ndef CreateOrderId(prefix=\"SUB\"):\n    \"\"\"    \n    :param prefix: what type of order id\n    this function is used to create unique order id for the orders \n    \"\"\"\n    unique_part = uuid.uuid4().hex[:8].upper()\n    date_time_part = datetime.now().strftime(\"%Y%m%d\")\n    return f\"{prefix}-{date_time_part}-{unique_part}\"",
+        "detail": "services.SubscriptionService.app.util",
+        "documentation": {}
+    },
+    {
+        "label": "PAYHERE_MERCHENT_SECRET",
+        "kind": 5,
+        "importPath": "services.SubscriptionService.app.util",
+        "description": "services.SubscriptionService.app.util",
+        "peekOfCode": "PAYHERE_MERCHENT_SECRET = config(\"PAYHERE_MERCHENT_SECRET\")\ndef CreateOrderId(prefix=\"SUB\"):\n    \"\"\"    \n    :param prefix: what type of order id\n    this function is used to create unique order id for the orders \n    \"\"\"\n    unique_part = uuid.uuid4().hex[:8].upper()\n    date_time_part = datetime.now().strftime(\"%Y%m%d\")\n    return f\"{prefix}-{date_time_part}-{unique_part}\"\nimport hashlib",
+        "detail": "services.SubscriptionService.app.util",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "webhooks.main",
+        "description": "webhooks.main",
+        "peekOfCode": "app = FastAPI(title=\"Webhooks\")",
+        "detail": "webhooks.main",
         "documentation": {}
     },
     {

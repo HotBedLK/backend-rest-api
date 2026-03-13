@@ -1,4 +1,5 @@
 from pydantic import BaseModel, Field, field_validator
+from util import smsPurposeEnum
 
 class VerifyMobileNumberSchema(BaseModel):
     mobile_number: str = Field(
@@ -11,6 +12,7 @@ class VerifyMobileNumberSchema(BaseModel):
         description="OTP code sent to the mobile number",
         examples=[123456],
     )
+    purpose : smsPurposeEnum = Field(description="you have to choose values from this according to your purpose")
 
     @field_validator("mobile_number")
     def validate_mobile_number(cls, value):

@@ -174,20 +174,28 @@ def log_sms_sender_payload(user_id, perpose, sms_id):
     except Exception as exc:
         raise payloadCreationException("Failed to create log sms sender payload.") from exc
     
-def user_update_payload(mobile_number, modify_account):
+def user_update_payload(modify_account:bool= None, verified:bool = None):
     """
-    create payload for update user
+    create payload for update user table
     
     :param user_id: id of the user
     :param perpose: perpose of send sms
     :param sms_id: sms_id get from sms gateway
     """
+    payload = {
+        # this is for common field for all updates happend on user table
+        'updated_at': datetime.now(timezone.utc).isoformat()
+    }
+
+    # Dynamically add fields only if they are not None
+    if modify_account is not None:
+        payload['modify_account'] = modify_account
+        
+    if verified is not None:
+        payload['verified'] = verified
+
     try:
-        return {
-            'mobile_number' : mobile_number,
-            'updated_at' : datetime.now(timezone.utc).isoformat(),
-            'modify_account' : modify_account
-        }
+        return payload
     except Exception as exc:
         raise payloadCreationException("Failed to create log sms sender payload.") from exc
 

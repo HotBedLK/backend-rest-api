@@ -1,12 +1,11 @@
 from ..db.usesrs import userTransactions
-# from app.utils.rate_limiter import get_redis_client
 from ..exceptions.registerExceptions import (
     ResendOtpCooldownException,
     UserAlreadyVerifiedException,
     UserNotFoundException,
     databaseUpdateFaildException
 )
-from ..util import generate_otp_code, hash_otp_code, send_otp_sms, create_otp_sms_payload
+from ..util import generate_otp_code, send_otp_sms, create_otp_sms_payload, smsPurposeEnum
 from ..db.otp_attempts import otpAttenptsTransactions
 
 RESEND_LIMIT = 3
@@ -36,13 +35,13 @@ def resend_otp_service(resend_data, db):
         return ResendOtpCooldownException(message="user previose OTP code. it's still not expired.")
  
     # generate new otp code
-    otp_code = generate_otp_code()    
+    otp_code = generate_otp_code()   
  
     # send otp to the mobile number 
     send_id = send_otp_sms(otp_code=otp_code, recipient=resend_data["mobile_number"])
 
     # store the otp_sms table
-    store_otp = otpAttenptsTransactions.create_otp_sms(db=db, payload=create_otp_sms_payload(otp_code=hash_otp_code(otp_code), user_id=user_availability["data"][0]["id"], sms_id=send_id))
+    store_otp = otpAttenptsTransactions.create_otp_sms(db=db, payload=create_otp_sms_payload(purpose=smsPurposeEnum.verification.value, otp_code=otp_code, user_id=user_availability["data"][0]["id"], sms_id=send_id))
     if store_otp['status'] == False:
         raise databaseUpdateFaildException("Failed to store OTP attempt. please try again later.")
 

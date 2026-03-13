@@ -79,3 +79,29 @@ class otpAttenptsTransactions:
                 return True
         except APIError as exc:
             raise SupabaseApiFailException(message=str(exc)) from exc
+
+    @staticmethod
+    def get_latest_otp_attempt(user_id: str, db: Client, purpose=None):
+        """
+        purpose : get latest otp attemp base on user's id
+        
+        :param user_id: UUID of the user 
+        :type payload: dict
+        :param db: database connection
+        :type db: Client
+        """
+        try:
+            response = (
+                db.table("otp_sms")
+                .select("id,otp_hash,expire_at, used_status, used_time")
+                .eq("user_id", user_id)
+                .eq("purpose", purpose)
+                .order("send_at", desc=True)
+                .limit(1)
+                .execute()
+            )
+            if not response.data:
+                return None
+            return response.data[0]
+        except APIError as exc:
+            raise SupabaseApiFailException(message=str(exc)) from exc

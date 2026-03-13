@@ -1,12 +1,11 @@
 from ..db.usesrs import userTransactions
-from ..db.sms_sender import smsSenderTransactions
 from ..db.otp_attempts import otpAttenptsTransactions
 from ..exceptions.registerExceptions import (
     UserNumberAlreadyExistsException,
     UserNotFoundException,
     databaseUpdateFaildException
 )
-from ..util import create_otp_sms_payload, log_sms_sender_payload
+from ..util import create_otp_sms_payload, smsPurposeEnum
 from ..util import build_user_payload, generate_otp_code, send_otp_sms
 
 def registerService(registerData,db):
@@ -26,7 +25,7 @@ def registerService(registerData,db):
     otp_code = generate_otp_code()
     
     # create user payloadfrom 
-    payload = build_user_payload(registerData, otp_code)
+    payload = build_user_payload(registerData)
     
     # send opt to the mobile
     send_otp_id = send_otp_sms(recipient=registerData["mobile_number"], otp_code=otp_code)
@@ -37,7 +36,7 @@ def registerService(registerData,db):
         raise UserNotFoundException("User creation failed. please try again later.")
     
     # store in otp attempts table
-    store_otp_attempt = otpAttenptsTransactions.create_otp_sms(create_otp_sms_payload(user_id=created_users['data'][0]['id'], otp_code=otp_code, sms_id = send_otp_id), db=db)
+    store_otp_attempt = otpAttenptsTransactions.create_otp_sms(create_otp_sms_payload(user_id=created_users['data'][0]['id'], otp_code=otp_code, sms_id = send_otp_id, purpose=smsPurposeEnum.verification.value), db=db)
     if store_otp_attempt['status'] == False:
         raise databaseUpdateFaildException("Failed to store OTP attempt. please try again later.")
 

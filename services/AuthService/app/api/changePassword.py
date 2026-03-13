@@ -18,6 +18,6 @@ router_login  = APIRouter(tags=["Login Routes"])
 async def change_password(
     data: changePasswordSchema,
     db: Annotated[Client, Depends(get_supabase_client)],
-    # _: Annotated[None, Depends(RateLimiter(limit=5, window_seconds=60, key_prefix="register"))],
+    _: Annotated[None, Depends(RateLimiter(limit=5, window_seconds=60, key_prefix="register"))],
     ):
     return changePasswordService(data=data, db=db)

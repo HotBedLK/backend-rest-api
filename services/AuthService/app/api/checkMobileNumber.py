@@ -18,6 +18,6 @@ router_login  = APIRouter(tags=["Login Routes"])
 @router_login.post('/check_mobile_number',description="verify mobile number on the database")
 async def check_mobile_number(data : CheckMobileNumberSchema, 
                               db : Annotated[Client, Depends(get_supabase_client)],
-                            #   _: Annotated[None, Depends(RateLimiter(limit=5, window_seconds=60, key_prefix="register"))],
+                              _: Annotated[None, Depends(RateLimiter(limit=5, window_seconds=60, key_prefix="register"))],
                               ):
     return checkMobileNumber(data, db)

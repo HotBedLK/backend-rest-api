@@ -1,3 +1,7 @@
+# purpose : send registration OTP again to the user's mobile number | for verification
+# input data 
+# mobile number
+
 from fastapi import APIRouter, Depends
 from supabase import Client
 from typing import Annotated

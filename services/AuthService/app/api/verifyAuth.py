@@ -1,3 +1,8 @@
+# purpose : verify account using otp that send to mobile number
+# input data 
+# mobile number
+# otp that send to mobile number
+
 from fastapi import APIRouter, Depends
 from supabase import Client
 from typing import Annotated

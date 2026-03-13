@@ -19,7 +19,6 @@ from .exceptions.registerExceptions import (
 def generate_otp_code() -> str:
     return f"{secrets.randbelow(1_000_000):06d}"
 
-
 def hash_otp_code(otp_code: str) -> str:
     return hashlib.sha256(otp_code.encode("utf-8")).hexdigest()
 
@@ -44,7 +43,7 @@ def hash_password(password: str) -> str:
     return f"pbkdf2_sha256$200000${salt.hex()}${derived.hex()}"
 
 
-def build_user_payload(register_data: dict, otp) -> dict:
+def build_user_payload(register_data: dict) -> dict:
     return {
         "first_name": register_data["first_name"],
         "last_name": register_data["last_name"],
@@ -71,7 +70,6 @@ def _get_sms_config() -> tuple[str, str]:
         ) from exc
 
 
-# this must transfer to the main app utils file
 def send_otp_sms(recipient: str, otp_code: str):
     api_token, sender_id = _get_sms_config()
     normalized_recipient = normalize_mobile_number(recipient)
@@ -98,7 +96,6 @@ def send_otp_sms(recipient: str, otp_code: str):
             timeout=10.0,
         )
         data = response.json()
-        print(data)
         return data['data']['uid']
     
     except httpx.HTTPError as exc:
@@ -125,8 +122,6 @@ def compair_otp_codes(provided_otp: str, stored_hashed_otp: str) -> bool:
     return hash_otp_code(str(provided_otp)) == stored_hashed_otp
 
 
-# *update registration, verification and otp_code resend endpoints as well
-# changes 1 : add purpose
 def create_otp_sms_payload(purpose ,user_id, otp_code, sms_id):
     """
     create a payload for otp attempts table
@@ -135,8 +130,6 @@ def create_otp_sms_payload(purpose ,user_id, otp_code, sms_id):
     :param otp_code: otp code
     """
     try:
-        # sent_at = datetime.now(timezone.utc)
-        # expires_at = sent_at + timedelta(minutes=10)
         payload = {
                 "user_id": user_id,
                 "otp_hash": hash_otp_code(otp_code),
@@ -150,7 +143,6 @@ def create_otp_sms_payload(purpose ,user_id, otp_code, sms_id):
                 'used_time' : None,
                 'sms_id' : sms_id
             }
-        print(payload)
 
         return payload 
     except Exception as exc:
@@ -237,6 +229,7 @@ class smsPurposeEnum(str, Enum):
 def get_current_local_time(hours = 0, minutes = 0):
     # get sri japura timezone
     colombo_time = timezone(timedelta(hours=5, minutes=30))
+    
     # add extra hours and minutes if needed
     new_time = datetime.now(colombo_time) + timedelta(hours=hours, minutes=minutes)
     return new_time.isoformat()
@@ -244,6 +237,7 @@ def get_current_local_time(hours = 0, minutes = 0):
 def get_previose_local_time(hours = 0, minutes = 0):
     # get sri japura timezone
     colombo_time = timezone(timedelta(hours=5, minutes=30))
+    
     # add extra hours and minutes if needed
     new_time = datetime.now(colombo_time) - timedelta(hours=hours, minutes=minutes)
     return new_time.isoformat()
@@ -251,6 +245,7 @@ def get_previose_local_time(hours = 0, minutes = 0):
 def current_time():
     # get sri japura timezone
     colombo_time = timezone(timedelta(hours=5, minutes=30))
+    
     # add extra hours and minutes if needed
     new_time = datetime.now(colombo_time)
     return new_time
@@ -258,6 +253,16 @@ def current_time():
 def back_to_localtime(provided_time):
     # convert string to datetime
     timed_format = datetime.fromisoformat(provided_time)
+    
     # set as to Asia/colombo time some
     current_local_time = timed_format + timedelta(hours=5, minutes=30)
     return current_local_time
+
+def update_otp_sms_table_payload(status = True):
+    try:
+        return {
+            "used_time" : get_current_local_time(),
+            "used_status" : status,
+        }
+    except Exception as exc:
+        raise payloadCreationException("Failed to create log sms sender payload.") from exc

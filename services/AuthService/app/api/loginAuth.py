@@ -1,3 +1,8 @@
+# purpose : loging functionality
+# input data 
+# mobile number
+# password
+
 from fastapi import APIRouter,Depends
 from supabase import Client
 from typing import Annotated

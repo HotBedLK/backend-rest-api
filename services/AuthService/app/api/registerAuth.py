@@ -1,3 +1,10 @@
+# purpose : register new user
+# input data 
+# first name
+# last name
+# password
+# mobile number
+
 from fastapi import APIRouter, Depends
 from supabase import Client
 from typing import Annotated
